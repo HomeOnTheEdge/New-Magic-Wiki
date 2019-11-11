@@ -1,0 +1,43 @@
+https://medium.com/@yakivmospan/did-you-ever-try-to-convert-github-wiki-in-pdf-c3078538bf12  
+
+Have you ever tried to convert Github Wiki into PDF?
+
+Yakiv Mospan
+
+Jan 19, 2017 · 3 min read
+
+Github wiki is a great solution for creating well struct and easy to browse documentations. More of that it is placed near your code, issues and release notes. Yeah Github is great :)
+But what if you are working on private repo, SDK is in active development phase and you need to share doc with potential customer ?
+There are two possible solutions :
+Go to Google Docs and copy and format all of your pages from Github Wiki.
+Find a tool that will automatically generate a doc from your Wiki repo.
+If you really want to hear why the first one is ugly :
+Write in one place, copy to another
+Not just copy, but copy and format all the code, images and so on, so on..
+You remember, the product is in active development, a lot of changes to doc as well. Change wiki, go to Google Doc, find the place, make changes there. And you will be doing this a lot of times.
+Sounds cool? This is what the developers dream to do ? Right?
+Yes, you are correct we will choose the second one, as this is really what we like to do, automate everything :)
+So we need a tool that can save us from copy pasting. You can think to create your own one, but why to create a wheel again?
+Lets google it, there should be already some quick solution for this. It should be easy and fast, I’m sure.
+Heh, I was so innocent while thinking like this. Off course there was solutions, like a Haskell Pandoc or Python script that is using the same Pandoc, Wkhtmltopdf and some html comments inside of markdown pages to generate a PDF.
+But both of solutions was not enough to cover my needs :
+Generate a TOC (Table of contents) and render the pages in the same order as it was in my `_Sidebar.md` file (responsible for TOC, placed on the right, of Github Wiki)
+Find and generate the page ids in whole file, not only for the page beginning
+Support of Github Wiki links [[..]]
+Highlight the code
+Easy to customize the style
+Then I found great Java script solution called Limedocs Wiki Converter. It almost suited my needs (at least it was generating a TOC and pages in the way I needed).
+We all love Open Source, and one of the biggest reasons of it is Fork. You can take something and update it to the way you need.
+Meet Github Wikito Converter.
+The tool that allows you to generate HTML & PDF documentation from your Github wiki or any other markdown-based wiki. It is build on top of Limedocs Wiki Converter and contains new features and bug fixes, check the release notes to see them.
+It is using Marked to create HTML from Wiki and then Wkhtmltopdf to convert if to PDF.
+To use it you first need to install Node.js or io.js.
+Also, if you want to generate PDF along with HTML, install Wkhtmltopdf.
+Then install a tool it self.
+npm install -g github-wikito-converter
+Clone your Wiki.
+git clone https://github.com/yakivmospan/github-wikito-converter.wiki.git
+And finally convert it.
+gwtc ./github-wikito-converter.wiki
+You can checkout samples and see more information about usage, customization and supported formats at github.
+Hope this post will help you to save some time and easily create the doc you need. Cheers
