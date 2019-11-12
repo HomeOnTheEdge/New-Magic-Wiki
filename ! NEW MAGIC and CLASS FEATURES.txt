@@ -1,0 +1,3872 @@
+﻿New Magic and Class Features
+________________
+
+
+Design Goals        5
+To Do        6
+Rules        8
+Actions        8
+Action        8
+Reaction        8
+Free Action        8
+Concentration        9
+Movement        9
+Using Dice to Adjudicate Combat        10
+Quick Guide        11
+Elementalism <Nearly PlayTest>        12
+Elementalism, page 2 <notes>        12
+Character Building:        14
+Magic        17
+Anti-magic <Brainstorming>        17
+Consecration <PlayTest>        18
+Face-changing <Playable, needs more power?>        20
+Magic Item Crafter  <In development>        21
+Mind Magic - Enchantment - Alter Memory <Brainstorming>        24
+Mind Magic - Enchantment - Alter Emotion/Mood <Brainstorming>        24
+Empathy (Alter Emotion)        24
+Mind Magic - Illusion - Image <Brainstorming>        24
+Mind Magic - Illusion - Alter Senses        24
+Sarcurgy <PlayTest>        26
+Sarcurgy - reference page        27
+Scrying <Brainstorming>        29
+Shapeshifting <Brainstorming>        29
+Forcefields <Brainstorming>        29
+Telekinesis <Brainstorming>        29
+Traversal <Brainstorming>        31
+➤Portal Magic  <PlayTest>        32
+Portal Magic Reference Page        33
+Other        34
+Dragonsoul                                                           <1st-draft>        34
+Enchanter (bake into Empathy?!?! Probably not but consider it)        35
+Druidism        36
+Class Features        39
+Assassination        39
+Influence        39
+Warfare        39
+Crime        39
+Alchemy / Transmutation        39
+Companion        41
+Companion reference page        42
+Soul Magic        43
+Mantras        44
+Traits and Feats        45
+NEW INSPIRATION FOR BACKGROUNDS AND STORY ARCS:        45
+Combo        45
+Imbue Weapon with Magic        46
+Voice of Truth        46
+Secret Passageway        46
+Red-eye Ring        47
+Arcane        48
+Hunter        49
+Crafter?        50
+Diplomat / Politician        50
+Fast Hands (Quick Draw)        50
+Fighter / Combat Training / Armor Training / Defense / Attack / Damage / Martial Training        51
+Flurry of Blows        52
+Martial Prowess        52
+Inspiration        52
+Leadership        53
+Fighting Style        54
+Thief        54
+Invention/Discovery        56
+Wealth        56
+Story Arcs        57
+Addict        57
+Bleeding Heart        57
+Bloodthirsty        57
+Charity        57
+Contract        57
+Coward        57
+Fame        57
+Nemesis        57
+Obsessive        57
+Pugnacious        57
+Thief        57
+Vengeance        58
+The Story of the Dragonborn        59
+The Story of Mithril        59
+The Story of Old Amaranthum        59
+Icons        59
+On Dice Mechanics:        61
+LEVELING SCHEMES        62
+Species        70
+Dwarf:        71
+Elf:        71
+Gnome:        71
+Human:        71
+Halfling:        71
+Giant:        71
+Xeno:        71
+The Evolution of Races        72
+Cultures        73
+Wizards’ College of Magic - Entrance Exam        76
+
+
+
+
+
+
+________________
+
+
+Design Goals
+* Magic and class features are easy for a player to learn and use, but has a great deal of creative interpretation.
+* Magic and Class Features are easily used to create customized characters that are interesting and unique. Better multiclassing.
+* Narrative power. Easy storytelling. For both the player and GM. The abilities should imply their own story, and that story shouldn’t automatically break the world.
+* Each of these abilities have been constructed to replace the existing spell system for D&D 5e. They are meant to be easy to learn, easy to use, reward creativity, and be easy to adjudicate.
+* Fun in spite of disparate party level. If a character is put in a party where everyone else has high rank abilities, and he has only one rank 1 ability, he is still an asset to his party. This allows GMs to create simple characters for beginner players, and to allow for an increased challenge of levelling a new character in a harsh world.
+* Easy to learn, easy to use. In D&D, making an attack is complicated, casting a spell, even more so. Try to minimize the necessity of rolling and managing resources whenever it yields poor narrative power and satisfaction. Don’t be afraid to allow unlimited casting.
+________________
+
+
+To Do
+* Organize the document into Brainstorming (☁), Development (🔩), Testable (➤), Tested (🔺), and Finished sections.
+* Edit Sarcurgy and Elementalism with the construct of ‘clay or cloth’.
+* Review alpha and better abilities and make sure the ‘fun in spite of disparate party level’ design parameter still holds.
+* Streamline Consecration
+* Group nearly-complete concepts (Magic and Class Features) towards the top of the document.
+* Build format template: Each ability should have a similar structure
+   * Page 1
+      * Title
+      * Tags. eg: Druidism tags: Advanced difficulty, Elements, Magic, Natural
+      * Intro description
+      * Prerequisites and requirements, advancement conditions (leveling requirements)
+      * Primary ability
+         * Standard: Action to do something, plus concentration to maintain that thing.
+         * Caveats and limitations section? This might allow for more elegant language in the primary ability section, and easier clues for building feats. consider putting into FOOTNOTES and GM SECTION
+      * Perks
+      * Reaction and off-turn abilities to maintain engagement.
+   * Page 2
+      * Quick Reference page (see sarcurgy pg2 for example)
+      * Overview of action
+         * Rank powers
+         * Perks
+      * Story
+         * Themes and interpretations
+         * Bonds, origins, curses, corruptions
+         * Folklore and legends. E.G. New bone elementalists usually fatally contort their own bones - which is why bone/flesh/blood elementalists are so rare.
+      * GM Section
+         * Adjudication - Clarifications, caveats, and limitations
+         * Balance issues and fixes, ‘dials’ to tune power
+         * Possible ‘Feats’
+         * Design notes
+      * Add a tag section for later ease of organization.
+* Synergy benefits? Synergy with same, vs synergy with different?
+* ON 2-COLUMN layout: While I prefer two-column layout, consider that the main body of the google doc should be as plain as possible (with perhaps a copied spell for a layout example) with footnotes on second page?
+* Consider Meta-classes
+   * ‘Paragon’ - Free raise/free ‘push’ - all abilities +1 rank? When pushing get +2 effective ranks instead of the standard +1 effective rank (still causes injury). Push more often?
+   * ‘Hero’ - Extra Action: Get two actions per turn.
+   * ‘Generalist’ - More abilities. Gain more initial character building points. Or like “two rank 2 abilities free”. Rank 1 abilities are cheaper. Max rank abilities are more expensive.(For campaigns with lots of leveling)
+   * ‘Multi-tasker’ - You can maintain two streams of concentration instead of one.
+   * ‘Scholar’ - Choose a skill or feature to focus on. While this feature is not at maximum ranks, is costs less per rank to level-up. However, you cannot use EXP to level-up any other feature.
+   * ‘Operative’ - Choose one skill. Any retries you have in this skill can be used for any other skill. Also, any retries you have can be used for this skill.
+   * What else?
+   * ‘Wizard’ - Experience spent to learn rank 1 and rank 5 in magic spells counts double.
+* How to use this document / How to read this book / General rules
+* GM section
+* Colophon section?
+* Final product note: wide outer margin for handwritten notes by the reader
+* “suggested use for margin notes: balance issues, world-building, rule changes, availability, , , “
+* Species, Culture, Background (Upbringing?), Training, Storyline, Destiny
+* Another checklist of powers: https://tvtropes.org/pmwiki/pmwiki.php/Main/StockSuperpowers 
+
+
+
+
+________________
+
+
+Rules
+Reconcile with: https://docs.google.com/document/d/1P7jDues8K8uUB7sLpPyBFkZ8HjXFFn93m1VA7BNK_j8/edit 
+
+
+There are three action types: ‘Action’ (AKA Standard Action), ‘Reaction’ (AKA Interrupt, Swift Action, Bonus Action), and ‘Free action’.
+
+
+In addition to these actions, characters have one ‘Stream of Concentration’ and one ‘Movement’. A stream on concentration is used to mentally focus on one task.
+        
+Advantages and Disadvantages
+        Advantages and Disadvantages can be invoked during a scene.
+Invoking an Advantage grants +1 advantage to your roll (or, GM side: reduces the difficulty by -1),
+Invoking a Disadvantage imposes a -1 disadvantage to your roll (or, GM side: increases the difficulty by +1) and grants you 1 experience point.
+
+
+
+
+Actions
+
+
+	Action
+	Reaction
+	Free action
+	Attack
+	TRUE
+	
+
+	
+
+	Cast a spell
+	TRUE
+	
+
+	
+
+	Concentration, begin
+	TRUE
+	TRUE
+	
+
+	Concentration, end
+	
+
+	
+
+	TRUE
+	Concentration, switch
+	TRUE
+	TRUE
+	
+
+	Defend
+	?
+	?
+	?
+	Drop an object
+	
+
+	
+
+	TRUE
+	Interact with an object
+	TRUE
+	
+
+	TRUE
+(only once per turn)
+	Movement, Rushing
+	TRUE
+	
+
+	
+
+	Prepare
+	TRUE
+	
+
+	
+
+	
+
+
+
+Action
+The basic currency of one’s turn, an action is necessary to perform most tasks.
+
+
+Attack: An attack is a deliberate attempt to affect an unwilling target.
+
+
+Attacks are a special type of action, in that a character might be able to attack multiple times when using an action to attack. Because of this, Attacks are sometimes treated as a resource in themselves.
+
+
+Reaction
+Some types of actions can be executed when it is not your turn. These are ‘Reactions’. Reactions generally resolve in the blink of an eye. On rare occasions, reactions retroactively affect a preceding action.
+
+
+Free Action
+Generally speaking, a character can perform an unlimited number of Free Actions at any time.
+
+
+
+
+Concentration
+‘Concentration’ represents the effort to maintain mental focus on a detail-oriented task for longer than one turn. Breaking concentration is similar to losing one’s train of thought or being distracted.
+
+
+Activities that usually require concentration:
+Maintaining a spell’s effect after the action in which it was cast.
+Melee combat (or maybe just defending oneself?)
+Aiming a weapon
+Difficult conversation
+Studying, learning, teaching
+Tracking prey, shadowing a person
+Eavesdropping on a quiet conversation
+Math
+Translating a language
+Being distracted
+
+
+Movement
+In general, most player characters will be able to move 30 feet in one ‘Movement’. This distance will be reduced to half when encountering difficult terrain, or to one-quarter or less when climbing or swimming, or may be reduced more or less by any other difficulty, i.e.: Injury, restraints, physical handicap. More movement can be bought by ‘Rushing’, though this consumes your action for the turn, and may incur additional risks.
+
+
+
+
+
+
+Combat
+
+
+        “Everyone has a plan… ‘til they get punched in the mouth.” - Mike Tyson
+
+
+Given the significant risk to a player character’s life, Combat requires its own special set of rules.
+
+
+
+
+Damage degrees
+1, L
+2, LL
+3, S
+4, SL
+5, SLL
+6, SS
+7, M
+8, F
+
+
+2 options
+
+
+Adjudicating Combat Without Dice
+
+
+Attacker:
+Use your Action to Attack a target.
+For each attack:
+Deal a number of light injuries equal to your combat skill minus your target’s combat skill. You deal a minimum of 1 light injury. Severe injuries can instead be dealt at the cost of three light injuries per.
+
+
+Defender:
+You have a number of Defense points equal to your ranks in Combat. You may expend these points to reduce the number of injuries suffered by an attack.
+When attacked, you may choose to expend as many Defense points as you wish. Doing so reduces the degree of injuries sustained by one degree per point.
+
+
+
+
+Using Dice to Adjudicate Combat
+
+
+Attacker:
+Use your Action to Attack a target.
+For each attack: 
+Roll a number of dice equal to your ranks in the Combat skill, plus one.
+Count the number of dice that exceed the target’s Defense.
+Deal a number of light injuries equal to the number of dice that exceeded the target’s defense. Severe injuries can instead be dealt at the cost of three light injuries per.
+Invoking disadvantages reduces the effective result of each die by 1.
+Invoking advantages increases the effective result of each die by 1.
+
+
+Defender:
+Defense = 2 * ranks in Combat + 7
+0 ranks = 7
+1 rank = 9
+2 ranks = 11
+3 ranks = 13
+4 ranks = 15
+5 ranks = 17
+Invoking disadvantages reduces the effective Defense number by 1.
+Invoking advantages increases the effective Defense number by 1.
+
+
+Chance to consecutively miss vs an equally skilled target
+Rank in Atf & Def
+	0
+	1
+	2
+	3
+	4
+	5
+	1 roll misses
+	3
+	6
+	8
+	8
+	6
+	4
+	2 rolls miss
+	11
+	39
+	59
+	59
+	35
+	15
+	3 rolls miss
+	37
+	244
+	455
+	455
+	204
+	57
+	4 rolls miss
+	123
+	1,526
+	3,501
+	3,501
+	1,197
+	219
+	5 rolls miss
+	412
+	9,537
+	26,933
+	26,933
+	7,043
+	842
+	
+
+
+
+
+
+________________
+
+
+Quick Guide
+...to using these abilities.
+
+
+Each of these abilities have been constructed to replace the existing spell system for D&D 5e. They are meant to be easy to learn, easy to use, reward creativity, and be easy to adjudicate.
+
+
+Most abilities have ‘Ranks’ that correspond to character level ranges, as per the following table:
+Tiers/Rank
+	D&D character level range
+	Description &  Who has these powers?
+	Suggested Damage Dice
+[a][b]	
+low
+	med
+	high
+[c][d]	
+Tier 0
+	
+
+	No aptitude at all. Complete ignorance and non-proficiency. NPC commoner. CR 0, CR ⅛.
+	1d6
+	1d6
+	1d6
+[e][f]	
+Tier 1
+	Levels 1-4.
+	Early adventurer. Village leader (Watch Captain, Wisewoman, etc.) Apprentice, basic training.
+	2d6
+	2d6
+	2d6
+[g][h]	
+Tier 2
+	Levels 5-10.
+	Experienced adventurer. Journeyman, unsupervised business.
+
+
+	4d6
+	4d6
+	5d6
+[i][j]	
+Tier 3
+	Levels 11-16.
+	Hero of the Realm. Master, high society.
+	6d6
+	8d6
+	10d6
+[k][l]	
+Tier 4
+	Levels 17-20.
+	Master of the Realm. Grand Master, best in a generation.
+	8d6
+	16d6
+	20d6
+[m][n]	
+Tier 5
+	Levels 20 and beyond.
+	Best there ever was and ever will be. Demigod power. Treading upon the domain of the gods.
+	10d6
+	32d6
+	50d6
+[o][p]	
+Tier 6 
+	Levels 25-99.
+	Godly power. Only seen in stories. Miracles witnessed by an entire civilization.
+
+
+	12d6
+	64d6
+	100d6
+[q][r]	
+Tier 7
+	Levels 100+.
+	Transcendental. Never even imagined. Ability to create/destroy planets.
+
+
+	14d6
+	128d6
+	200d6
+[s][t]	
+
+
+While the following abilities are still being refined, there are a few rules of thumb:
+1. An action is required to perform an ability.
+2. An action requires concentration to maintain an effect.
+3. There is no save for these abilities, unless otherwise noted, or required by the GM.
+4. Trust the GM, and allow him/her to adjust the power of your abilities as they continue to be refined.
+5. When using these abilities in concert with D&D 5e, they in general meant to substitute certain class features. For example, a paladin could instead be considered a fighter who uses the Consecration ability as his subclass. A wizard could perhaps know two spell abilities (Sarcurgy and Face-changing, for instance) instead of his spell list and spell slots. He could begin with Rank 1 in Sarcurgy at level 1, and Rank 1 in Face-Changing at level 3, and he is allowed to increase either one by 1 rank at every odd level. Your GM will let you know how many levels or class features you must sacrifice to gain an ability.
+
+
+
+
+________________
+
+
+  Elementalism <Nearly PlayTest>
+You have an intimate connection to a particular phenomenon - an element. You can bend this element to a shape, or dismiss it as if it were a servant. Most elementalists choose earth. Nearly all the rest choose water, wood, or air.
+
+
+Requirements:
+Physical Contact - To perform any of these abilities, your living flesh (or whatever passes for flesh for your species) must be in contact with at least a handful your chosen element. Most elementalists thusly choose to go barefoot. Note, that some elements cannot remain in contact with your body for long, either due to the hazard they present to your body or spoilage of their purity when in contact with a body. Carrying a cup of water doesn’t count - plunging your hand into it does.
+Concentration - To maintain an Elementalism spell, you must maintain concentration on it. Each spell requires its own stream of concentration.
+Gesture - The gestures involved in manipulating an element are dramatic and conspicuous, though easily performed and often artfully beautiful. That said, attempting to disguise or subtlely perform the necessary gestures will spoil an attempt to cast a spell.
+
+
+Primary Spell:
+Shape: You can cause an element to grow beyond its natural scope or be extinguished. Causing a cupped handful of water to become an ocean, or a castle to become a grain of sand. To use this spell, you must be in physical contact with the element. At rank one, this spell grows or diminishes an element by 1 handful (25 ccs) per round, and you can affect any portion of the volume that you’re in contact with up to 1 meter away. You can also change the shape of an element using this spell. The shape can be as ornate as you like but it cannot be more complex than a simple machine (door, pulley, lever, etc.). The shape is maintained while you maintain concentration on this spell, violent forces notwithstanding. When you end concentration, the shape is subject to structural forces - a bridge of sand will hold weight during concentration, but will fall without concentration. This spell’s power grows exponentially as you gain ranks in Elementalism.
+
+
+Rank 1 = 25 cc (1 handful) per round, up to 1 m (3 ft) away. 90 liters (human adult) per hour.
+Rank 2 = 250 cc (½ pint) per round, up to 10 m (30 ft) away. 900 liters per hour.
+Rank 3 = 2.5 l (5 pints) per round, up to 100 m (300 ft) away. 9000 liters (enough bricks for the walls of a small house) per hour.
+Rank 4 = 25 l (7 gallons) per round, up to 1 km (0.6 mi) away.
+Rank 5 = 250 l (9 cu ft) per round, up to 10 km (6 mi) away.
+
+
+Secondary Spells:
+Commune: You can speak to your chosen element as if it were a close friend. It will give advice and tell you news that it knows, and may, if convinced, tell you secrets it knows. To do so, you must be in contact with at least a handful of your chosen element. Note: the ‘memory’ and ‘experience’ of an element is limited to the size and contiguity of that which you’re in contact with. Smaller masses know and remember less, but are easier going and more likely to divulge secrets, whereas larger masses know much and remember eons, but are more haughty and divulge few secrets. Sometimes a show of power will be necessary to cow an element to your will.
+Transmute: You can transmute an element similar to your chosen element into your chosen element. Stone into Earth, for instance. This process is similar to that of the Shape spell, but slower, proceeding at 1/100th the rate (~1 liter per hour at rank 1). At higher ranks, the allowed difference between your chosen element and the element you are trying to transmute grows, and you can begin to transmute other creatures.
+        Dowse: You can supernaturally sense the presence of your element when it is nearby. While concentrating on this spell, you know the presence and location of any portion your element within a distance equal to the range at which your Shape spell can affect.
+
+
+Perks:
+As you gain ranks in Elementalism, you also gain the following passive benefits:
+Rank 2 - ‘(element)-bearer’: As long as you are not dead, your hands (or what passes for hands for your species) are immune to harm associated with contact with your chosen element. For instance: Fire or acid no longer burn your hands; your hands cannot be crushed by stone; and so on.
+Rank 4 - ‘(element)-soul’: Your body becomes completely immune to harm associated with contact with your chosen element. For instance: Fire or acid no longer burn you; water no longer drowns you; you cannot be crushed by stone; and so forth.
+Rank 5 - ‘True-Namer of the (element)’: You can command an element to completely obey your whim. All prerequisites are removed for all elementalist spells for your chosen element. If you can make your intent known to your chosen element (usually by voicing your wish, or physically touching the element with an explicit wish in mind), it obeys you as if it were a loyal servant.
+  Elementalism, page 2        <notes>
+
+
+Note: Some elements are more permanent than others. While it takes years for a stone to erode, it takes mere moments for a fire to burn itself out. While concentrating on Shape, an element is for the most part immune to forces of entropy, though active resistance may extinguish or disrupt the manifestation of an element. Once concentration ends, then an element brought into being by Shape will be normally subject to entropy.
+Also note: Some GM’s will limit or outlaw certain elements. For instance, Earth might be considered too broad for your GM, and she might limit your element to A Particular Metal, Sand, Mud, or Dirt. An element such as Blood might be limited such that you can only shape whomever’s blood you possess, but more likely she will outlaw Blood as an element that players can choose. Magic as a chosen element is only appropriate for deity-level characters.
+Clever trick: A blind earth-elementalist can gain the semblance of sight if she Communes with the earth around her.
+On transmutation - Metals, blood.
+
+
+
+
+
+
+Those remaining choose elements too numerous to exhaustively name, but among them are fire, blood, paper, lightning, death, time, word, and music. If you wish to choose two or more elements, will have to first get your GM’s permission, and then gain ranks for each element independently.
+
+
+
+
+Some choose to ingest their element, or have it surgically implanted subdermally.
+
+
+I feel like going a slightly different direction here, where you cannot simply create your element out of thin air. Instead, you have to find some way of carrying and preserving your element with you to grow it.
+
+
+It make fire and lightning REALLY DIFFICULT to learn.
+
+
+Lifehack for fire Elementalists: https://en.wikipedia.org/wiki/Fomes_fomentarius
+
+
+        Rank 3 - Imbue: In a ritual that takes eight hours, you can enchant an object to contain a portion of your element. Only one such object can be enchanted by you at a time. An object so enchanted and held by you satisfies the ‘Physical Contact’ requirement for Elementalism. If the object is broken while enchanted, it releases a burst of elemental energy equal to your ranks in elementalism.
+
+
+Elementalism Feats:
+        Secondary Effect (Rank 2)
+                Lightning - Disarm, Chain
+                Cold - Slow movement, Freeze (grapple)
+                Heat - Burning (additional damage next turn)
+Minor Telekinesis (Rank 2)
+                The physical contact prerequisite is changed. You may manipulate an element if it is within 30 feet of you.
+
+
+  
+ Hitting a target with a Lightning bolt is difficult.
+
+
+Super critical failures: the generation of an elemental, becoming an elemental
+
+
+
+
+________________
+Character Building:
+Species
+Culture
+Background, Upbringing, Childhood
+Training, Career, Apprenticeship
+Destiny, Fate
+* Skills (consider using 
+   * Athletics finesse or brawn
+      * Movement, grappling, acrobatics, parkour, sports
+   * Commerce senses
+   * Culture will
+      * Knowledge. Language, etiquette, protocol, history, law, appraisal
+   * Endurance brawn
+      * concentration, exhaustion, lifting?, distance running, sprinting
+   * Discovery senses, or will
+      * Intuition, Investigation, Insight, Learning, Invention, Experimentation, Perception, Analysis, and Initiative, Navigation as it applies to either unknown destinations or dangerous paths.
+   * Medicine senses
+   * Piloting finesse
+      * Sailing, driving carts/wagons, navigation as it applies to achieving known destination via known and safe paths ‘ Navigation’ might better
+   * Performance will
+   * Social Interaction (Influence, Deception, Diplomacy, Intimidation) will
+      * Strength (Brawn) option for Intimidation:
+      * Causes fight or flight response, but UNSUBTLE - the greater the success, the greater the reaction.
+   * Stealth finesse
+   * Warfare will and/or brawn
+   * Wildcraft senses
+* Stats (mostly ignored)
+   * Brawn        3
+   * Finesse        3 (grace/poise/balance/dexterity)
+   * Senses        4
+   * Will        5
+   * Magic        0
+   * 12 total skills
+
+
+
+
+value        %exact        %success        %fail        
+2        2.78        100        0        
+3        5.56        97.22        2.78        Nearly certain
+4        8.33        91.67        8.33        
+5        11.11        83.33        16.67        
+6        13.89        72.22        27.78        Average difficulty
+7        16.67        58.33        41.67        
+8        13.89        41.67        58.33        
+9        11.11        27.78        72.22        Very difficult
+10        8.33        16.67        83.33        
+11        5.56        8.33        91.67        
+12        2.78        2.78        97.22        
+avg% per point = 9.091818182%
+
+
+5e 7 levels of exhaustion: 0 - no penalties, 1 - disadvantage on SKILLS, 2 - maximum speed halved, 3 - disadvantage on ATTACKS and SAVES, 4 - maximum HP halved *NEEDS CHANGING, 5 - AC reduced by 5, 6 - maximum speed equals 0, 7 - death
+
+
+INVENTORY MECHANIC:
+* You can carry a number of items* equal to your strength.
+* You can use a number of lines on your character sheet equal to your strength.
+
+
+Mood/reputation/willingness
+Indifferent: the creature doesn't find you interesting. It might move out of the way, or answer easy questions, or give a small pittance if begged, but won't put forth significant effort for you. 
+Mood                        What it’s willing to sacrifice
+-                         its world
+-                         the life of its race, homeland, culture
+-                         the life of its loved ones, its honor
+Devoted (Parents, dogs)        its life
+Loyal (domesticated)        its security. It is willing to go hungry and/or cold, or be injured. 
+Friendly                        its comfort
+Cordial, Polite                its convenience
+Indifferent                its attention and/or its space
+Irritable, Wary
+
+
+Stats, human average = 0
+
+
+
+
+
+
+Score        bonus        cost        cost        cost        cost                                                        Rank equivalent
+                from 10        from 1        for mod        for mod
+                                        from 0
+0        -5        -30                
+1        -5        -25        0        0        -11        -3        dead, invalid
+2        -4        -20        5                        
+3        -4        -16        9        4        -7        
+4        -3        -12        13                        
+5        -3        -9        16        7        -4        -1
+6        -2        -6        19                        
+7        -2        -4        21        9        -2        
+8        -1        -2        23                
+9        -1        -1        24        10        -1        
+10        0        0        25                                human average                                0
+11        0        1        26        11        0        0
+12        1        2        27                                                                        1
+13        1        3        28        12        1        
+14        2        5        30                                                                        2
+15        2        7        32        14        3        
+16        3        10        35                                                                        3
+17        3        13        38        17        6        2
+18        4        17        42                                olympic-level human                        4
+19        4        21        46        21        10        
+20        5        26        51        26        15        4        human @ maximum potential                4
+
+
+
+
+
+
+You can fully master at least one skill list, maybe two, by level 20. (maybe 3? Or as much as 4?)
+
+
+Tiers/Ranks:
+        Tier 0: NPC commoner. CR 0, CR 1/8                No aptitude at all. Complete ignorance and non-proficiency.
+        Tier 1: Early adventurer. Levels 1-4.                Apprentice, basic training.
+        Tier 2: Experienced adventurer. Levels 5-10.                Journeyman, unsupervised business.
+        Tier 3: Hero of the Realm. Levels 11-16.                Master, high society.
+        Tier 4: Master of the Realm. Levels 17-20.                Grand Master, best in a generation.        
+        Tier 5: Demigod power. Levels 20 and beyond.        Best there ever was and ever will be.
+        Tier 6: Godly power.                                Only seen in stories.
+        Tier 7: Transcendental.                                Never even imagined.
+        Actions
+        Bonus Actions
+        Reactions
+        Short Rest abilities
+        Long Rest abilities
+        Ritual casting
+                10 minutes
+                1 day
+                1 week or longer
+        ‘Push’, ‘Raise’, ‘Limit Break’ - Exceeding limitations explicitly stated in the rules by using ‘inspiration points’, or risking exhaustion, harm. You may push your effective rank by +1 if you take damage equal to your current ranks in that ability. (a less restrictive version: You may push your effective rank by +1 if you take 1 damage)
+        Costs? Wealth, Deafness, Dumbness, Reviled Appearance (tattoos, sorcerous accoutrements, monstrous traits, race/culture, 
+        Titles ‘the wench-slayer’ etc
+        How experience/reputation/fame/honor/renown is gained for that power set. 
+
+
+Crafts, culture & ritual,  knowledge, secrets, resources, networks commonly associated with these skill sets. ..
+Consecration: holy weapon, holy water, sacred tome, penance and prayer, sanctuary. 
+Elementalism: orb or flask containing a permanent phenomena,  staff or wand or crystal or candle or tattoos aiding concentration, 
+COMPONENTS: material, somatic, vocal, line of sense (sight), focus (Eg wand), concentration
+TEAMWORK  /   SYNERGY
+WORLD VIEW, FAITH, IMPLICATIONS, ESCHATOLOGY
+CEREMONY, RITUAL
+        CORRUPTION (plot twist):
+                Triggered by: Abuse, limit break/overcharge, narrative climax, critical failure
+                Animal Companion: Turns on master, goes rabid, runs off, gives birth
+                Portal/Teleportation: Permanent tears, splinching, wrong location, trapped between
+                Illusion: Hallucinations, mass panic, 
+                Enchantment: Loss/instability of personality
+                Archery: Out of ammo, hit an unintended target, 
+                Elementalism: Power leak/dam breaking, 
+
+
+Style? 
+
+
+________________
+Magic
+Student: ‘If there’s no rules for magic, what’s in all these books?’
+Master: ‘Rules for magic.’
+        - Three Panel Soul - ‘Continuity’
+
+
+
+
+Magic are phenomena that defy the laws of physics. Though magic can often be described by rules, and replicated through research and practice, in the end, magic is the art of getting something from nothing.
+
+
+Anti-magic        <Brainstorming>
+        MAIN ABILITY:
+Dispel: End magical effect.
+                Counterspell: Interrupt spell casting.
+Dispel as a preemptive reaction
+        Ward: Prevent magical effect.
+Preemptive Dispel as a field or enchantment
+Either the effect is triggered once then ends, or,
+The effect continuously prevents spellcasting.
+Triggered enchantment - easy
+Triggered Field/Continuous Enchantment - moderate
+Continuous Field - very difficult
+        Reflect: Reflect magical effect.
+Should Anti-magic be included in ‘Arcane’?
+
+
+
+
+
+
+
+
+
+
+
+
+________________
+
+
+  Consecration        <PlayTest>
+Consecration is the act of making something sacred to a particular faith. Indeed, it is your character’s faith that powers this magic, and with that faith, come the obligations and commandments of that faith. Some actions are seen as sinful, and some beings may be seen as evil to your faith - these things are called: ‘Anathema’. Consecration requires an action to activate, and concentration to maintain. While consecration is active, it projects a spherical field of sacred power from the center of the object, whose radius depends on your ranks in consecration.
+
+
+Requirements[u][v]
+Faith: You must be beholden to a given faith. Your GM will validate a faith appropriate for your character.
+Conviction: Your character must be utterly convinced in the rightness of their faith. If your character doubts their faith, that doubt may reduce effective ranks in Consecration.
+Sinlessness: If your character commits a sin or associates with anathema, that may reduce effective ranks in Consecration. Converse with your GM to figure out what your faith considers a sin, and whether atonement is possible.
+Anathema: For those that have this skill, there will always be some intransigent opposite to their faith - some great nemesis that must be struggled against. This nemesis, their actions, and their minions are all considered ‘anathema’, and are your character’s sworn enemies. To a Holy Knight, demons, devils, and undead would be seen as anathema. To an Elementalist of Water, fire elementals and creatures of the desert would likely be anathema. Your GM will validate an anathema appropriate to your character’s faith.
+
+
+Casting a Consecration spell:
+As an action, you cause an object to take on one of the consecrated effects (see below). You must maintain concentration to maintain the effect. When an object or creature comes into contact with the consecrated area, it is affected by one effect per round or attack. Changing the effect requires an action. If you maintain consecration continuously for eight hours, you may choose to make the consecration effect permanent, removing the concentration requirement. This permanence comes with a drawback however: The effect ends if the consecrated object is moved more than 10 meters from where it was permanently consecrated, or if it is damaged such that it becomes non-functional. For instance, a church is usually consecrated by consecrating the stones of its foundation or the cornerstones of its walls. If you wish to change a consecration effect, you must cast the spell anew. You can, if you wish, reduce the area and/or magnitude of effect of consecration down to Rank 1.
+
+
+Rank 1: The effect of consecration is isolated to your hands, or an item that you carry, or a static radius of 0.5 meters.
+Rank 2: The radius of consecration equals 3 meters.
+Rank 3: The radius of consecration equals 5 meters.
+Rank 4: The radius of consecration equals 800 meters.
+Rank 5: The radius of consecration equals 8 kilometers.
+
+
+
+
+Consecration Effects
+Heal: A non-anathema[1] creature is healed once per round by a factor according to your ranks in Consecration.
+Smite: An anathema creature is damaged once per attack by a factor according to your ranks in Consecration.
+Sanctuary: Anathema creatures and effects have to pass a courage/will check to enter or remain in the area. Also, any attempts to communicate with a deity of the faith are made with advantage. Healing effects are doubled for non-anathema creatures.
+Truth: Anathema creatures’ attempts to deceive automatically fail.
+
+
+Perks
+Rank 1 - Nemesis: Characters with this ability may take the ‘Nemesis’ story for free. Even if they do not, the GM may surreptitiously apply it anyway.
+Rank 2 - Sense Anathema: If a creature is anathema, you automatically identify it as such when it enters an area currently under the effect of your consecration, and you are aware of its point-of-entry into that area.
+Rank 3 - Hunter: If you have not already taken the ‘Hunter’ background, you may take it for free. You must be a hunter of something anathema to your faith.
+Rank 5 - Avatar: You have gained such notoriety and renown as a member of your faith, that you may subtlely redefine the tenets of that faith without suffering the effects of not meeting the requirements of consecration.
+
+
+5e Conversion:
+Heal: 1d6 per rank healing per round.
+Smite: 1d6 per rank damage per attack.
+Sanctuary: When an anathema creature or effect enters or ends its turn in an area of consecration, it must pass a Charisma save equal to your 8 + Proficiency Bonus + Charisma modifier or suffer the frightened condition until the end of its next turn (if a creature) or be suppressed (if a magical effect).
+Truth: Anathema creatures’ attempts to deceive automatically fail.
+	
+
+Nemesis
+The PC has earned the enmity of a powerful character in the story. He gains advantage on investigation and insight checks during any event in which his nemesis has had a part.
+
+
+Gain XP by figuring out your nemesis’s plot, foiling their plot, turning the nemesis into an ally.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Old Consecration Effects
+Heal: All healing effects by non-anathema on non-anathema within the area of consecration increased by one rank. 
+Smite: All damaging effects by non-anathema on anathema within the area of consecration increased by one rank. Requires a supporting method of doing damage, usually: Combat - rank 1.
+Sanctuary: Anathema creatures and effects have to pass a courage/will check to enter (or remain in?) the area. Also, any attempts to communicate with a deity of the faith are made with advantage.[2] (AKA: Turning, warding, protection, shielding)
+Truth: Anathema creatures’ attempts to deceive automatically fail. (AKA: Revelation) (Option: unless their attempts are performed at two ranks higher than the rank of the consecration.)
+Truth 2: Creatures that are non-anathema to your faith cannot be deceived by creatures anathema to your faith.
+Something about excluding specifically named creatures too?
+A note on conflicting consecrations interacting/overlapping with each other.
+Maybe some line about dispelling anathema effects/consecrations/curses and such?
+
+
+SANCTUARY NOTE: The courage/will check to enter should almost always fail - only when it reveals something interesting to the story should an anathema being be allowed into an area of sanctuary.)
+
+
+AVATAR NOTE: Redefining the faith itself may either align the faith to a different deity, or fundamentally change the original deity itself.
+
+
+Rank 2: The radius of consecration equals 3 meters. It can affect adjacent creatures.
+Rank 3: The radius of consecration equals 5 meters. Within the same building or large room, or a cube 30-feet each edge.
+Rank 4: The radius of consecration equals 800 meters. Within the same small village, or a cube 1 mile each edge.
+Rank 5: The radius of consecration equals 8 kilometers. Within the same city, or a cube 10 miles each edge.
+________________
+  Face-changing        <Playable, needs more power?>
+        Face-changing is similar to shapeshifting, but is limited to taking on the identity of other creatures with similar morphology to your own. I.E. A humanoid can turn into another humanoid, but not into a quadruped.[w]
+        Rank 1: You can take on the appearance of a race, but gain none of its racial traits. This also includes your height and weight to that of a creature one size category less than yourself. For example, if you are human, you could take on the appearance of a gnome. Your identity is still apparent, however.
+        Rank 2: When you are appearing as a race other than your own, you also take on the racial features that would be passed on by breeding, but not by culture and upbringing. You can also change your height and weight to that of a creature one size category larger than yourself, such as changing from human to ogre.
+        Rank 3: While under the effects of face-changing, you now gain the racial features gained through culture and upbringing, such as that of language. You can also appear as a specific individual to those not familiar with that individual. A DC10 Insight (Senses) check is required to see through your disguise.
+        Rank 4: While under the effects of face-changing, your body language, idioms, gestures, and inside jokes are now identical to that of the individual you are mimicking. A DC20 Insight (Senses) check is required to see through your disguise.
+        Rank 5: While under the effects of face-changing, even your mind appears as that of the mind of the individual you are mimicking, so that even mind-reading magic and true-sight are foiled when used to identify you. Insight checks no longer reveal your identity.
+
+
+        Consider: You can create a mask from a creature’s remains. Wearing this mask allows you to appear as that creature (body-plan must be similar).
+                Time to study mannerisms?
+                Memories, accents, passwords, relationships?
+                Rank benefits?
+                Who can you fool? Loved/Trusted, Friends/Tribe-members, Cultural/Political, Species, Everybody else
+________________
+Magic Item Crafter                <In development>
+(PERHAPS IT USES SOUL MAGIC?! Each enchantment is a shard of someone’s soul! A botched enchantment includes too much or the wrong parts of someone’s soul!)
+Choose a type of magic item:
+Potion-like: One-use, temporary effects only, self only, EASY
+Scroll-like: One-use, temporary effects only, any target, MODERATE
+Focus-like: Recharging, any-target, DIFFICULT
+Rune-like: Permanent effects only, DIFFICULT
+
+
+Potion-like
+Self only
+1 charge
+Non-recharging
+Duration ≤ 1 min (concentration?)
+
+
+Scroll-like
+Any target
+1 charge
+Non-recharging
+Duration ≤ 1 min
+
+
+Wand-like
+Any target
+Charges ≥ 1
+Recharging
+Duration ≤ 1 min
+
+
+Ring-like
+Self only
+1 “charge” (spell)
+“Recharging”
+Permanent/constant effect
+
+
+Staff-like
+Any target
+“Charges” (spells) ≥ 1
+
+
+MAGIC ITEM VALUE FACTOR PYRAMID
+Highest value
+	
+
+	permanent
+	
+
+	High value
+	multitarget
+	unlimited use
+	- taxed cell -
+	multiple spell effects allowed
+	(+1)
+	any single target
+	multi charge
+	recharging
+	long duration
+	concentration requirement satisfied for duration
+	1 choice of multiple spells
+	Least value
+(0)
+	Self-only
+	1 charge        
+	non-rechargeable
+	short duration
+	concentration requirement unsatisfied
+	1 spell only
+	VALUE
+	TARGET
+	CHARGES
+	RECHARGE
+	DURATION
+	CONCENTRATION
+	# SPELL EFFECTS
+	To build a magic item, begin at the base of the pyramid (the white cells) and choose the features you want your item to have. The value of the item is equal to the number of grey cells that are included in the item’s description and the grey cells below. For example, if you have an item that has the following features: Self-only, Permanent, 1 choice of multiple spells. Then the ‘Self-only’ feature adds 0 value to the item, the ‘Permanent’ feature adds 7 value to the item, and ‘1 choice of multiple spells’ adds 1 value. 11 points for a max value item.
+
+
+
+
+MAGIC ITEM VALUE FACTOR PYRAMID
+Highest value
+	
+
+	permanent
+	High value
+	multitarget
+	7
+	recharging: 0.0000694 - 1 per day
+	- taxed cell -
+	(+1)
+	any single target
+	1
+	recharging: 0.00000992063 - 1 per week
+	long duration (1 day to 1 year depending on effect)
+	concentration requirement satisfied for duration
+	Least value
+(0)
+	Self-only
+	0 - only one use.
+	non-rechargeable
+	short duration (1 round to 1 day depending on effect)
+	concentration requirement unsatisfied
+	VALUE
+	TARGET
+	MAX CHARGES
+	RECHARGE
+	DURATION
+	CONCENTRATION
+	To build a magic item, begin at the base of the pyramid (the white cells) and choose the features you want your item to have. The value of the item is equal to the number of grey cells that are included in the item’s description and the grey cells below. For example, if you have an item that has the following features: Self-only, Permanent, 1 choice of multiple spells. Then the ‘Self-only’ feature adds 0 value to the item, the ‘Permanent’ feature adds 7 value to the item, and ‘1 choice of multiple spells’ adds 1 value. 11 points for a max value item.
+
+
+
+
+Charges per round:
+14,400 rounds per day
+0.00001 charges per round = 1 per week. (1-in-a-hundred-thousand)
+0.0007 charges per round = 1 per day. (7-in-ten-thousand)
+0.00167 charges per round = 1 per hour. (17-in-ten-thousand)
+0.01 charges per round = 1 per ten minutes. (1
+0.1 charges per round = 1 per minute.
+
+
+Charges per day (maximum 1 charge):d
+1 per month. At dawn, roll a d20, if 20, gain +1 charge.
+1 per week. At dawn, roll a d20, if 18, 19, 20, gain +1 charge.
+1 per day. At dawn, gain +1 charge.
+1 per hour. Recharges between scenes.
+1 per round.
+Instant recharge.
+Permanent effect. Use an action to toggle on or off.
+
+
+
+
+
+
+Focus - this word should be only for objects necessary for casting a spell. Usually the point of the spell effect’s origin.
+
+
+ITEM - There should be an item that, when wielded, increases the rank of a caster’s power. Probably by sacrificing 2 ranks in the creation of the item, the item grants 3 ranks. Find name for this item type, and 
+
+
+
+
+
+
+Potion, Scroll, or Magical Focus. Potions create magical effects on the drinker and require no skill to use. Scrolls create magical effects directed by the user, but require at least a beginning magical aptitude to use. Magical Foci are reusable, recharging each day, but require at least a moderate magical aptitude to use.
+        Rank 1: ? ? ?
+        Rank 2: 1 week to craft. Can craft items that replicate a rank 1 effect that you know. Can improve a weapon or piece of ammunition from +0 to +1 magical bonus.
+        Rank 3: 1 month to craft. Can craft items that replicate a rank 2 effect that you know. Can improve a weapon or piece of ammunition from +1 to +2 magical bonus. Can improve a piece of armor from +0 to +1 magical bonus.
+        Rank 4: 3 months to craft. Can craft items that replicate a rank 3 effect that you know. Can improve a weapon or piece of ammunition from +2 to +3 magical bonus. Can improve a piece of armor from +1 to +2 magical bonus.
+        Rank 5: 1 year to craft. Can craft items that replicate a rank 4 effect that you know. Can improve a piece of armor from +2 to +3 magical bonus.
+
+
+________________
+Mind Magic - Enchantment - Alter Memory        <Brainstorming>
+        Can Telepathy be popped out of altering memory? Or are they too entwined?
+        Read Memory/Thought
+        Send Memory/Thought
+        Alter Memory/Thought
+        Connections 1, 2, 5, 10, 20, 50, 100
+        Deepness
+                Explicit Knowledge - facts
+                Implicit Knowledge - skills, friends
+                Instinct, morals, philosophy, worldview
+        Distance
+                Earlier Today, Yesterday, Last Week, Last Month, Last Year, Last Decade, Earliest memories.
+
+
+Mind Magic - Enchantment - Alter Emotion/Mood        <Brainstorming>
+See ‘Empathy’
+
+
+Empathy (Alter Emotion)
+You can cause another creature to whatever emotions you are feeling.
+By spending more time interacting with the creatures affected by your Empathy spell, you can increase the intensity of their emotional experience (up to a point? Burnout/boredom/desensitization). This is usually done via a live performance - singing, acting, storytelling, but can also be accomplished by composing music, cooking food, gladiatorial combat, interrogation, etc.
+        Rank power
+                Performance time, how much you can perform before exhaustion
+# of targets?
+Max time until burnout/boredom?
+# of emotions? known (repertoire) or felt (depth/complexity)
+        Perks (tentative)
+                How affected you are by your own emotion
+                # targets
+
+
+Mind Magic - Illusion - Image        <Brainstorming>
+
+
+Perks
+Rank 1 - Artiste: You have an outstanding capacity for rendering images. Choose an art form - For instance: portraiture, marble sculpting, origami, wayang kulit, whatever. Your crafts in this art form are masterpieces. Your illusory images are also impeccable, such that you can duplicate anything you have seen.
+Rank 3 or 4 - Double: You may create an illusory double of yourself. It is indistinguishable from yourself, until it physically interacts with something, at which point its illusory nature is revealed. Until this interaction, however, the question of which is the real you is ambiguous, and you can occupy either space until you interact with something, at which point, you must decide whether it is the double, or your actual person.
+
+
+
+
+Factors
+        Number of separate illusions
+        Size of illusions
+        Programmability
+        Sounds
+        Animation
+
+
+
+
+
+
+
+
+
+
+
+
+Mind Magic - Illusion - Alter Senses
+        Alter Vision
+        Alter Olfactory
+        Alter Auditory
+        Create Image (hologram)
+        You can create false images and sounds that appear to be real.
+        To do so, you must first craft a representation of the illusion. (Drawing/Sculpture?)
+
+
+________________
+  Sarcurgy        <PlayTest>
+Sometimes misunderstood as necromancy; sarcurgy, or ‘flesh-work’ is the magic of healing, reshaping, and handling flesh. While granting the ability to restore severed body parts and cure diseases and poisons, sarcurgy cannot restore a soul to a creature.
+
+
+Requirements
+Physical Contact - To perform any of these spells, you must be in contact with the dead tissue upon which you are performing a spell.
+Concentration - To maintain a spell, you must maintain concentration on it. Each spell requires its own stream of concentration.
+Tools - Sarcurgy requires some tools: Knives, needles, sutures, syringes and the like. Not having a medic’s kit on hand may cause these abilities to fail. 
+
+
+Perks
+As you gain ranks in Sarcurgy, you also gain the following passive benefits:
+Rank 1 - Medical Expert: Your Medicine skill is equal to three times your ranks in Sarcurgy, plus five. Medicine skill = (3*Sarcurgy Ranks)+5. 
+Rank 2 - Inured to Disease: You body is immune to poisons and infectious diseases.
+Rank 3 - Research: As long as you have a designated piece of flesh for this purpose, you may inoculate it with, and extract from it, infectious diseases. While this flesh sample is in your possession, the inoculations within it will not deteriorate or escape.
+Rank 5 - Deathless: Your body stops aging and you cannot die due to age-related effects.
+
+
+Spells
+Knit Flesh and Bone: You can magically join and shape animal tissue, as well as transmute one type of tissue into another (bone into organ, for instance). Joining tissue occurs at a rate of 1 square centimeter per minute. Shaping and transmuting tissue occurs at a rate of 1 cubic centimeter per minute. This rate doubles for each rank in sarcurgy beyond the first (1cm2 at rank 1, 2cm2 at rank 2, 4cm2 at rank 3, 8cm2 at rank 4, 16cm2 at rank 5). Knit Flesh and Bone has many uses, including but not limited to: Adding or restoring functional limbs, organs, or natural armor (by shifting flesh from another area of the creature’s body, or adding flesh from a different creature); shaping flesh can extract animal-based parasites; and transmuting flesh can turn diseased tissue into healthy tissue. A useful rule of thumb: 1 kilogram of flesh is approximately equivalent to 1,000 cubic centimeters of volume.[x][y]
+
+
+Perhaps making the comparison to clay would make the Knit spell a bit easier to parse.
+
+
+Read the Bones: After completing a ritual that takes 10 minutes to complete, you can examine the deceased remains of a creature to learn its perspective on its experience prior to its death, and its expectations regarding the future. While examining the remains, you may pose questions to the GM 
+                                Fix this
+
+
+ Note that simpler creatures may only reveal simpler concerns; where they might find food or shelter, or what the weather might be. The range of experience and expectation revealed by this examination is dependent on your ranks in sarcurgy. Rank 1 reveals the experiences 1 day prior to the creatures death, and its expectations up to 1 day beyond its death. Rank 2 reveals a week’s worth. Rank 3; a month. Rank 4; a year. Rank 5; the entirety of the creature’s experiences and expectations. This spell requires concentration only during the 10-minute ritual. If the ritual is successful, no further concentration is required. When you finish examining the remains, 
+
+
+Reanimate: Using a ritual that takes eight hours to complete, you bestow unliving animation on a corpse. The corpse becomes a creature with the ‘undead’ type, has immunity to poison damage and the poisoned condition, gains the ‘Undead Fortitude’* feature, and follows your commands loyally. The creature is animated for a duration that depends on your ranks in sarcurgy, injury notwithstanding. When using this power on an already animated creature, the ritual only takes 1 hour to complete, and you extend the creature’s animated duration up to the maximum determined by your ranks. If you use this power on a creature that had been animated by a different sarcurgist, and your ranks in sarcurgy exceed theirs, you wrest control of the animated creature from the original sarcurgist (as well as restoring its duration as previously described). This spell requires concentration only during the ritual, if the ritual is successful, no further concentration is required. A creature reanimated by a rank 1 sarcurgist persists 1 day; rank 2, 1 week; rank 3, 1 month; rank 4, 1 year; rank 5, indefinitely.
+
+
+        New ability: Preserve flesh (mummify, but not necessarily in the egyptian style)
+        Address the following: Graft, shape/transmute
+________________
+
+
+  Sarcurgy - reference page
+
+
+	Perks
+	Knit Flesh and Bone
+	Read the Bones
+	Reanimate
+	Rank 1
+	Medical Expert: Your Medicine skill is equal to three times your ranks in Sarcurgy, plus five. Medicine skill = (3*Sarcurgy Ranks)+5. 
+	1 square centimeter per minute to join. 1 cubic centimeter to shape or transmute.
+	Examine a creature’s corpse to learn about a creature’s experiences and expectations within 1 day of its death.
+	Reanimate a corpse for 1 day.
+	Rank 2
+	Inured to Disease: You body is immune to poisons and infectious diseases.
+	2 square centimeters per minute to join. 2 cubic centimeters to shape or transmute.
+	Examine a creature’s corpse to learn about a creature’s experiences and expectations within 1 week of its death.
+	Reanimate a corpse for 1 week.
+	Rank 3
+	Research: As long as you have a designated piece of flesh for this purpose, you may inoculate it with, and extract from it, infectious diseases. While this flesh sample is in your possession, the inoculations within it will not deteriorate or escape.
+	4 square centimeters per minute to join. 4 cubic centimeters to shape or transmute.
+	Examine a creature’s corpse to learn about a creature’s experiences and expectations within 1 month of its death.
+	Reanimate a corpse for 1 month.
+	Rank 4
+	
+
+	8 square centimeters per minute to join. 8 cubic centimeters to shape or transmute.
+	Examine a creature’s corpse to learn about a creature’s experiences and expectations within 1 year of its death.
+	Reanimate a corpse for 1 year.
+	Rank 5
+	Deathless: Your body stops aging and you cannot die due to age-related effects.
+	16 square centimeters per minute to join. 16 cubic centimeters to shape or transmute.
+	Examine a creature’s corpse to learn the entirety of a creature’s experiences and expectations.
+	Reanimate a corpse indefinitely.
+	Example stat block for Reanimate ability. Use this or whatever is appropriate for the reanimated corpse.
+Zombie (humanoid)
+Medium undead, neutral evil
+Armor Class 8
+Hit Points 22
+Speed 20 ft.
+
+
+STR        DEX        CON        INT        WIS        CHA
+13 (+1)        6 (-2)        16 (+3)        3 (-4)        6 (-2)        5 (-3)
+
+
+Damage Immunities poison
+Condition Immunities poisoned
+Senses darkvision 60 ft.
+Languages understands the languages it knew in life but it cannot speak
+
+
+Undead Fortitude. If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.
+
+
+Actions: Slam. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage.
+	        
+________________
+Scrying <Brainstorming>
+Also Clairvoyance/Clairaudience, Divination, Remote Viewing, Second Sight
+Also include precognition, portent, prophecy, and the like?
+
+
+Requirements:
+        Concentration
+        Eyes Closed - (or sense that acts as vision is blocked out)
+
+
+Danger Sense
+        You uncannily sense when danger is near
+
+
+Locate Object / Locate Creature / Locate Person
+
+
+Limited Omniscience - No matter where they are, when someone speaks your name, you hear it and their next ten seconds of speech.
+
+
+Shapeshifting <Brainstorming>
+(Polymorphing, Polymorphism, Skinchanging)
+
+
+Prerequisites
+        Body and Soul: You must integrate into yourself the essence of the animals whose forms you take. Either by violence - devouring the heart and wearing its hide, or by negotiation - being granted a soulbond and piece of its body.
+
+
+
+
+        CURRENT MODEL: You gain the ability to shapeshift into an animal form by satisfying two conditions: 1) Eating the animals heart, and 2) Wearing a cloak made from the animal’s skin. The heart and skin can be gifted willingly by the animal to the Shifter, in which case the heart is only metaphorically devoured.
+                Increasing in ranks improves this ability how?
+ANOTHER MODEL: Learn a number of traits, while concentrating, you can bestow a number of known traits dependent on your Rank in Polymorphism. You can bestow a trait via touch.
+        ANOTHER MODEL: Denizen of an ecology. Choose an ecology, you can transform into beings of that ecology. Rank 1: Small benign, common, animal, Rank 2: Strong military, or wild animal, Rank 3: Exotic, exceptional, Rank 4: Monster, Rank 5: Planar
+        
+
+
+        Note: A druid’s circle will generally consider taking the shape of a sentient humanoid to be taboo, punishable by excommunication.
+
+
+Forcefields <Brainstorming>
+        Rank 1: One 1-square-foot plane, one 5.5” cubic vessel (about a pint), one 12’ rope, or one large knife or small club. Within reach. Can hold or resist 500 pounds of pressure or weight.
+        Rank 2: Two 4-square-foot planes, two 12” cubic vessels (about eight gallons each), two 
+
+
+
+
+Telekinesis <Brainstorming>
+        Force applied
+Distance (range) of of an affected object
+        Touch        within 30 feet        within sight
+        x3        x1                1/3
+Mass of object
+Volume of object
+Finesse of telekinetic effect - how fine a manipulation can be performed (Finesse stat?)
+Complexity of the telekinetic effect - how many objects can be manipulated (Senses stat?)
+
+
+Channeling (seance, becoming a vessel for spirits )
+d
+
+
+
+
+
+
+
+
+
+
+________________
+  Traversal <Brainstorming>
+Teleportation, Astral Projection, (generalize to include Teleportation, Shadow-walking)
+        apportation
+        Methods: Shadow (edge), Mirror, Dream, Magic circle, Tree (species - oak, pine, willow, yew, holly), 
+
+
+Rank 1: While you concentrate with your eyes are closed, you manifest a disembodied eyeball that has a fly speed of 40 feet, 1 hit point, and an AC of 12. This eye is ghostly and incorporeal.
+        Rank 2: Mage hand with your eye. Your astral body can appear as if material.
+        Rank 3: When you manifest an astral body, you can manifest it into parallel dimension or adjacent plane, into a place that corresponds to your body’s position on the material plane.
+        Rank 4: Bring others into an astral projection. They are weaker version of themselves, having fewer ranks in their power sets, and half their hit points.
+        Rank 5: Your astral body manifests as a perfect copy of your own body.
+
+
+        Better versions of an astral body.
+        Bringing others into an astral projection
+        Exiting the projection where your astral body is, effectively teleporting to the new location.
+        Projecting into another dimension.
+When your body is killed during an astral projection, your spirit becomes disembodied, and is subject to the great many dangers that face disembodied spirits - obsessiveness, capture by necromancers, harvesting by fiends, becoming lost in limbo, etc. It is probably best to have friend with the capacity to aid souls in this case.
+Perk: When you stand at the center of a crossroads, you can gain your bearings and become unlost.
+
+
+Focus: Mirror, Plant, Crossroads, etc.
+Teleporting causes some form of damage to the destination focus such that the focus cannot be used again until repaired.
+
+
+Math-based teleportation (Advanced):
+As an action, you can teleport to any point you can see within 30 feet.
+Negative Factors:
+Number of creatures, Total weight, Total volume
+Distance
+Negate damage to focus
+Accuracy - smallness of radius to destination
+Positive Factors
+Ranks in Teleportation
+Time spent ‘charging’
+Familiarity with destination
+
+
+Hold breath - incorporeality
+While holding breath or eyes closed, ‘distance points’ start charging up, more per rank.
+________________
+    ➤Portal Magic                <PlayTest>
+Doors are inherently mysterious. When encountering a new door, one wonders what is on the other side. Portal-mages exploit existing doorways for magical traversal. Resembling teleportation, portal magic allows one to traverse distances instantly.
+
+
+Requirements
+Concentration - To maintain a spell, you must maintain concentration on it.
+Magical Focus - Portal magic requires a focus: Doorways, windows, standing stone archways, or drawn circles all provide a focus upon which a magic portal can be created.
+
+
+Primary spell:
+Portal: As an action, you create a magical portal. The portal must be placed inside a physical passageway such as a doorway, window, or mirror, or placed in a representation of a door, such as a picture of a door drawn in chalk, and you must be able to see the portal. The portal occupies the space of the door or representation upon which it was cast, and appears as a shining surface. If the caster chooses, the destination beyond the portal can be visible or hidden behind this surface. The portal remains active as long as the caster concentrates on it (even if they move out of sight?). The range at which a portal can be opened increases as the character gains ranks in Portal Magic. You can close any of your own portals at any time, though their closing may be hindered by objects in the way, and creatures that are caught can usually climb out without the closing door hindering them doing so. You may have up to two portals open at a time, opening a third closes the first. Closing another’s portal requires an action, and requires a roll check if the portal is of equal or greater rank than your own in Portal Magic.
+A portal opens the way to a miniature parallel dimension  (a “pocket-” or “hallway-dimension”) owned by the caster, or to another portal created by the same caster.
+The pocket dimension acts a space owned by a particular caster that can only be accessed via that caster’s portals. It has a volume of 1 cubic meter at rank 1, and grows as the character gains ranks in Portal Magic. When the portal to the pocket dimension is closed, the portal dimension is a sealed airtight, unlit space. When one is inside the pocket dimension, one can see any active portals linked to it.
+Portals that open on each other are called ‘linked’ or ‘paired’. Paired portals can be traversed instantly, as if they occupied the same space.
+
+
+        Rank 1: Your portals can be placed up to 3 meters from you. Your pocket dimension is 1 cubic meter in volume.
+        Rank 2: Your portals can be placed up to 7 m from you. Your pocket dimension grows to 8 cu m in volume.
+        Rank 3: Your portals can be placed up to 20 m from you. Your pocket dimension grows to 125 cu m in volume.
+        Rank 4: Your portals can be placed up to 80 m from you. Your pocket dimension grows to 1000 cu m in volume.
+        Rank 5: Your portals can be placed up to 400 m from you. Your pocket dimension grows to 8000 cu m in volume.
+
+
+Perks:
+As you gain ranks in Portal Magic, you also gain the following benefits:
+Rank 1 - Knock: As long as the target is in sight, you can, as an action, telekinetically open or close unlocked doors, lids, latches, windows and such from a distance equal to that which you can open a portal.
+        Rank 2 - Sealing Sigil: As an action, you may draw a sealing sigil on a surface. While this sealing sigil is intact, portals cannot be opened on the surface; If the surface is a closed door or closed window, or some such device, it cannot be opened. Enough damage to the material upon which the sigil is drawn will destroy the sigil. A sealing sigil can be drawn in chalk as an action, but if more time and better materials are spent to draw the sigil, it may be nearly impossible to destroy.
+        Rank 3 - Magic Gate: If you spend time drawing a runed circle known as a Magic Gate, you can create a representation that satisfies the doorway prerequisite for portal magic that can be activated even if it is not within sight. The range at which the Magic Gate can be activated depends on the time spent drawing the Magic Gate, as such: Distance in Miles = Days spent, squared. For example, spending 1 day on Magic Gate, allows that circle to be activated as a magical portal as long as the caster is within 1 mile. Spending 2 days on a Magic Gate allows it to be activated up to 4 miles away. Creating a Magic Gate to traverse the diameter of the Earth takes 90 days. Each pint of sapient blood used in the drawing of the Magic Gate reduces the required time by 1 day to a minimum time of 1 day to draw it. As usual, if the Magic Gate is activated singly, it opens on the caster’s pocket dimension. If activated in concert with another portal, it can be traversed.
+
+
+
+
+
+
+
+
+________________
+
+
+Portal Magic Reference Page
+
+
+RANKS
+	Open Portal Range
+	Pocket Dimension Size
+	Perks
+	1
+	3 meters (10 ft.)
+	1 cubic meter
+	Knock
+	2
+	7 meters (20 ft.)
+	8 cubic meters
+	Sealing Sigil
+	3
+	20 meters (60 ft.)
+	125 cubic meters
+	Magic Gate
+	4
+	80 meters (250 ft.)
+	1000 cubic meters
+	
+
+	5
+	400 meters (1300 ft.)
+	8000 cubic meters
+	
+
+	
+
+
+
+        GM note: ANY PORTAL MAGE can activate a portal runic circle, as long as they’ve spent at least 1 day reading the runes of the circle. Thus, most portal mages keep their runic circles hidden and secret. If a city or army uses such a circle, they will usually heavily police the use of portal magic, in fear of their shipping lane or army being fatally disrupted. LIFEHACK for smart portal mages: A Stargate, just like the one from the movie or TV series can be created using Sealing Sigil and Magic Gate in concert with each other. The inclusion of Magic Gate is obvious. Sealing Sigil can be creatively used to make a puzzle-box like interface of ‘chevrons’ just like from the movie. A particular entry of chevrons allows the gate to be locked, unlocked, or even destroyed if the clockworks are so constructed.
+        Possible feats:
+        Portal Grasp: Closing your portals can now trap creatures as they attempt to pass through.
+        Many Portals: The maximum number of portals that you can open increases from two to unlimited.
+        Instant Passageway: You can now open two portals in a single action, rather than having to use two actions to do so.
+
+
+        If a portal mage opens a portal inside his pocket dimension:
+                IF there are no other portals open, THEN the portal mage chooses one of the two following:
+1) Anything entering the portal exits it in the same moment, leading to the same spot in the pocket dimension.
+2) The new portal leads outside, as an exit from the pocket dimension.
+                IF the new portal is linked to an outside portal, THEN the portal acts as if it was an exit to the pocket dimension.
+
+
+        Order of operations for portal?
+                Action
+                        Choose representation for portal.
+                        Choose whether portal is linked to another open portal, or unlinked and opens on the pocket dimension.
+                        If any other portals are opened to a pocket dimension, they can be instead linked to the portal being opened now.
+                        Portal opens.
+                Traversal
+
+
+        Possible Bond? Study, demonic contract, faith, (probably none of these, doorway magic feels like a homely magic or a magic found by people who like shortcuts)
+        Possible Curses? Insanity caused by seeing between dimensions. Splinching. Something coming from the other side. Evil twin
+________________
+Other
+Curses (touch, centered on target)
+leech (hp on hit): 1, 2, 1d4, 1d6, 1d8
+rot (reduce armor): 1, 2, 3, 4
+sluggishness (reduce movement): 5', 10', 15'
+clumsiness (disadv): 1 skill, 1 ability score checks, 1 save, 1 ability score checks and save
+Auras (centered on self)
+courage (versus fear): Advantage, immunity
+clarity (vs charm & illusion): Advantage, immunity
+protection (add ac): 1, 2, 3, 4
+summoning/binding (cast once, active until flee/dismissal/death)
+type: beast, plant, elemental/monstrosity/ooze/undead, celestial/fey/fiendish, aberration/giant/humanoid
+Intelligence: <8, <10, <12, <14, <16, <18, <20, 20 or greater
+cr: 1/6th level, 1/5th level, 1/4th level, 1/3rd level, 1/2 level, 1:1 level
+bond (level of control): None, non-combat, wound, death, betrayal
+Magic from deities
+Odin: change shape, call storm, incite war, glimpse of the future.
+Necromancer
+Death shroud (temporary hit points)
+Phylactery (soul jar)
+Magic Use:
+When you choose this feature, pick one of the following magic schools. If you pick this feature multiple times, pick a different school.
+        Arcane (Int):                        Detect, Enspell, Dispel, Study, Armor, Anti-magic, Counterspell, Spellbook/Scroll
+        Deific (Wis/Cha):                        Commune, Consecration
+                Requires Oath
+        Demonology (Int/Cha):                Bind, Call, Commune, Dismiss, Synthesis
+                Requires at least two of: Bond, Dedicated Study, Oath, or Sacrifice.
+        Druidic (Wis):                        Commune, Invoke, Meld, Nurture (cultivate)
+                Requires Bond or Oath
+        Elementalism (Con):                Invoke, Meld, Amplify (cultivate), Harness Element
+        Enchantment/Glamer (Cha):        Charm
+        Illusion/Glimmer (Int):                
+        Metamagic (Int):                        
+                Requires Bond or Dedicated Study
+        Necromancy (Int):                Soul Jar, Subjugate Soul, Death Shroud, Animate Dead
+                Requires at least two of: Bond, Dedicated Study, Oath, or Sacrifice.
+Portals (Int):                        Tunnel, Room, Lock/Unlock
+                Requires Dedicated Study
+Runic (Int):                        
+                Requires Dedicated Study
+Shapeshifting (Wis/Con):                
+        Summon (Cha):                        Bind, Call, Dismiss, Synthesis
+                Requires Bond, Friendship, Oath, or Sacrifice
+        Telekinesis (Int):
+        Transmuter (Int):                        
+                Requires Dedicated Study
+*Should smite and LoH be the same spell? TurnA: Turn, Ward, Destroy, Detect, Protection From. CONSECRATION
+Lucid Dreaming, Dreamwalking, Shared Dreaming
+Resurrection, reincarnation
+
+
+  Dragonsoul                                                           <1st-draft>
+        Category: Gods, Deities, 
+        Through extensive study, travels, or experience, you have gained special insight into the nature of Dragons and their kin. This particular set of abilities may be prohibited by your DM, and even if it is not, expect your DM to require extensive adventuring before you’re allowed to gain ranks in this set.
+        Rank 1 - Voice: You gain proficiency in the language of dragons; you can speak, read, and write Draconic. Also, if there are any settlements within 100 miles of a dragon, you find and hear rumors of the dragon’s existence and activities in those settlements. Additionally, any signs of draconic activity, hunting, lair effects, and the like, are easily spotted and confirmed by you.
+        Rank 2 - Mettle: You gain Legendary Resistance against Dragons. This Legendary Resistance can be used to automatically succeed on a saving throw caused by any effects caused by dragons, including the spells they cast and their lair effects. This Legendary Resistance can only be used 3 times per day, recharging at the end of a long rest. You also gain immunity to Draconic Presence, as well as one energy type (fire, acid, etc.).
+        Rank 3 - ???: Nursing and care? Aspect (breath and/or intimidating presence)?
+        Rank 4 - Friend: You gain the friendship, or at the very least, a working relationship with a dragon. Certain dragon relationships may be joining souls with a dragon, where one of the pair cannot be killed unless the other is also killed in that same day. Other choose to become agents of a dragon god. Most choose to gain a mortal dragon as an adventuring partner. In this case, the age of the dragon is at most, the sum of character’s age and ability scores, all divided by three.
+        For example, if you are playing a human fighter, and your ability scores are 17, 14, 14, 10, 9, 8, and your age is 24, then the maximum age of your dragon partner is 32 years, which would be a ‘Young’ dragon.*
+        Rank 5 - Lord: You gain the possession of an ancient artifact known as an “ Orb of Dragonkind”, which identifies you as a master of dragonkind, and which you can use to command dragons. This is a dangerous artifact, and injudicious use may cause unintended consequences.
+
+
+        *Dragon age and size categories: Egg (small) = two years or less. Wyrmling (medium) = five years or less. Young (large) = 6-100 years. Adult (huge) = 101-800 years. Ancient (gargantuan) = 801 years or more.
+
+
+
+
+Enchanter (bake into Empathy?!?! Probably not but consider it)
+        Requirement: An effect continues as long as you chant. If your character is mute, some other form of communication is used instead (see note below). Requires concentration.
+        Resistance: Target gains resistance to a certain damage type.
+        Vulnerability: Target gains vulnerability to a certain damage type.
+        Concentration: Target can maintain an additional concentration stream.
+        Haste: Target gains haste - one additional action. When effect ends, target gains one level of exhaustion.
+        Slow: Target is slowed. Can only move or make one action per turn. Bonus/reactions denied.
+        Befuddlement: Target gains disadvantage on mental saves.
+        Weakness: Target gains disadvantage on physical saves.
+        Perks: Beguiling - you have advantage on social interactions to charm/seduce.
+        Rank 1 = 1 target
+Rank 2 = 2 targets
+Rank 3 = 4 targets
+Rank 4 = 8 targets
+Rank 5 = 16 targets
+Rank Benefits: Affect a number of targets equal to your ranks in Enchanting squared.
+Ranks +1 = Two effects while chanting.
+Ranks +2 = You may pause in your chanting for a round without breaking the enchantment.
+Ranks +4 = Removes chanting requirement.
+If a target has been a victim of your chanting within the past day, they get a save, with advantage, to resist reapplication of the effect.
+Note: Dancing or playing a musical instrument also counts as a form of ‘communication’.
+
+
+
+
+
+
+________________
+Druidism
+        CONSIDER: ‘Standard’ and ‘Advanced’ versions of this ability. The standard version follows the same ranked structure as is seen in other abilities, and grows by milestone (again, as standard). The advanced version, however, is unranked, and only grows by the walk-a-perimeter method - where direct, in-character investment is what is necessary for increasing the size and power of the grove. This ‘grognard’ish version would require the GM section to give examples of use, hazards, and limitations compared to the standard version. NOTE: Is it possible that other abilities can also have similar, non-ranked, investment-based progression systems?
+        The standard version should probably simply grow in size and security with each rank, such that the other effects, what you can summon, etc, are indirectly improved by the grove’s Proliferation. The boundary size can be limited by the druid’s whim in this case, even if that means the interior is larger than the boundaries of the grove. Again, the advanced version should require direct, in-character investment to prune the grove (if the Druid wishes to limit its spread), or increase its security (by growing tree/bramble fences, for instance).
+        Another consideration: That perhaps grove as written is too broad - summoning, shapeshifting, communing with spirits are exceptionally powerful when combined together in a single character, and only being distinct by biome may not be distinct enough.
+
+
+        Grove:        You can summon anything currently in your grove to you.
+You can transform into anything that currently makes its home in your grove.
+Teleporting back to your grove requires a long ritual.
+You have an empathic connection with lifeforms of the same species that dwell in your grove.
+You can never get lost inside your own grove.
+Multiple groves?
+https://en.wikipedia.org/wiki/Biome
+
+
+Grove
+Noun - grove (plural groves)
+1) A small forest.
+2) An orchard of fruit trees.
+3) (Druidism, Wicca) A place of worship.
+Synonyms: Sanctuary, shrine, sanctum, asylum, refuge, haven, altar, retreat, chapel, oasis
+Examples: Mausoleum, charnel, grove, thicket, garden, forest, oasis, mountain, hill, clearing, meadow, hearth.
+
+
+Claim Grove: To create a grove, walk a perimeter, then visit the center (spill some of your blood there). In a ritual that takes one day, you spill 1 pint of your blood (or what counts for blood for your species) at the center of your grove. This creates a shrine - a place holy to your grove, and to which the magic of your grove is tied.        Your grove is always at risk. If the shrine is damaged or desecrated you will lose your connection to your grove. Your grove will shrink if another biome pushes into your grove’s territory.
+Summon: To summon or transform into a creature: (Could a druid summon a weather effect?)
+        First, it must make its home in your grove
+Second, you must create an idol (8 hours of labor per lifeform) of the lifeform, which you carry on your person. If the idol incorporates some piece of the lifeform’s body, the 8 hour labor is reduced to 2 hours.
+The idol can be anything crafted by your hands, but often it takes the form of a palm-sized model of the creature, a mask, or a totem pole.
+        Third, use an action, while in physical contact with the idol. The spell summons the lifeform adjacent to you. You may merge with the lifeform as part of the action. Un-merging frees the animal from your body, but it still has to travel to return back to your grove.
+        Return to Grove: To teleport back to your grove, you must have a handful of whatever substance makes up its ground. Teleportation back to your grove requires 1 hour of meditation. During the meditation, your spirit is a tangible presence in the grove, but your body remains wherever you began your meditation. At the end of the hour, either your spirit returns to your body, or your body is teleported and rejoined with your spirit back in your grove.
+Transplanting Grove: If a druid wishes to relocate the center of their grove, without claiming another grove, he may choose to Transplant. In a ritual that takes a week, he may recenter his grove at his new location. This stresses the magic of the grove, however, and imposes a penalty: For 1 year, the size of the grove is 1 less than what his ranks would allow (minimum 1)
+________________
+
+
+
+
+Rank Benefits
+	Size
+	Weather Effects
+	Denizens
+	Concealment
+Hiddenness
+Isolation
+Seclusion
+Security
+Sanctity
+Separation
+Secretiveness
+Privacy
+Secrecy
+Reservation
+	
+
+	Rank 1
+	Home Garden
+20’x20’
+6m x 6m
+	Obscuring
+Difficult Terrain
+	Benign prey
+	
+
+	
+
+	Rank 2
+	Village
+4 mi2
+10 kg2
+	
+
+	
+
+	
+
+	
+
+	Rank 3
+	City
+100 mi2
+250 kg2
+	
+
+	
+
+	
+
+	
+
+	Rank 4
+	Nation
+250,000 mi2
+650,000 km2
+	
+
+	
+
+	
+
+	
+
+	Rank 5
+	Continent
+10E6 mi2
+25E6 km2
+	Catastrophic
+Village destroying
+	Titans
+	
+
+	
+
+	
+
+
+
+
+
+Perks?
+        Number of biomes
+World-tree bifrost bridges? Axis Mundi. Teleportation between groves?
+        Multiple groves? I think multiple groves should be allowed. Allowing for multiple groves allows for limited teleportation and enough travel to be an adventurer.
+        Size of grove?
+        Lair actions?
+        Maybe this is an auto-scaling ability, without the need for ranks to limit power.
+        Sturdiness - protection from despoliation, reclamation, or desecration?
+        Secretiveness, apartness, separateness, planar boundary? Pure Land
+        Maginitude/Number of lair actions?
+
+
+Climate influence on terrestrial biome (not including caves, mountains, or waters):
+  
+
+
+
+TERRESTRIAL NON-AQUATIC
+Boreal Forest
+Cold Desert
+Temperate Grassland
+Temperate Rainforest
+Temperate Seasonal Forest
+Tropical Rainforest
+Tropical Seasonal Forest
+Tundra
+Savanna
+Shrubland
+Subtropical Desert
+Woodland
+
+
+AQUATIC
+Abyssal
+Pelagic
+Riparian
+Swamp / Marsh / Wetland
+Tidepool
+
+
+SYNERGIES
+Taking both consecration and druidism creates a ‘Heaven-builder’, ‘Realm-builder’.
+Taking both sarcurgy and druidism makes an ‘Evolutionist’.
+Taking both portal magic and druidism makes a ‘Planeswalker’.
+
+
+
+
+________________
+Class Features
+    Assassination
+        Effects from this power set may only be applied once per target per combat scene***. When being applied to targets that have not yet acted in a combat scene (not drawn weapons, not been alerted to your presence, unexpected, etc) these effects have their effectiveness increased five-fold.
+        Poisoner/Dirty Fighter: Through the use of poisons, dirty tricks, stealth, or skulduggery, you apply detrimental effects to your opponents.
+                Throat Shot - silenced for 30 sec (5 rnd). The victim is allowed to make constitution saves (DC15) to end effect.
+                Dazed/Poisoned - Disadvantage on skills for 1 minute.
+                Stun - 1 round.
+Sneak Attack - When attacking a creature that is already threatened in combat, or taken by surprise, you deal an additional 15% of the creature’s hit points in damage. This effect can only occur once per target per combat scene.
+
+
+***The intent here is that you could apply Throat Shot, DisAdv, Stun and Sneak Attack to each target in combat, ONCE per combat, but limitlessly while out of combat. Find elegant wording for this.
+        This should actually be a fighting style similar to ‘combo’ or whatever.
+
+
+Influence
+        Rumor, fame, performance, art, journalistic credibility, 
+Warfare
+        Effectively military rank, 
+        Knowledge and credibility to address the military maneuvers, logistics, and personnel
+        When included with military rank, you are either a warlord or a trusted general. Without, at least a trusted advisor
+Crime
+        Bribery: You have an innate sense of whether an individual is receptive to being bribed. With a five-minute interaction, an hour’s worth of prior investigation on their character, or an insight check of 15 or better, you will learn whether the person will accept or reject bribes. With a result of 20 or better, you know the amount and type of bribe that will sway the individual. In the case of a failure, a reattempt will fail until the relationship with or information on the individual has significantly changed.
+        GM note: Realize that while it is possible that someone is receptive to bribes, if that person has already accepted a larger bribe counter to the player character’s interests, a conflict may ensue.
+        GM note: Also realize, that even some honorable characters can be bribed - though the bribe will take the form of the “greater good”. For example releasing a small-time crook from criminal charges to gain intelligence on a higher-level criminal.
+        GM note: Types of bribes - Money, sex, weapons, information, favors, access to a person, political asylum, forgiveness of a debt, loyalty
+
+
+
+
+
+
+Alchemy / Transmutation
+        Distill - You can spend a day distilling (a volume of) a substance into an ‘alchemical essence’. This essence contains one trait of the original substance (hardness, color, heat, etc.) and can be used to Imbue another substance with that trait. A distilled alchemical essence is 1/1,000th the volume of the original substance (1 liter becomes 1 cubic centimeter), and has the same weight as water.
+        Imbue - You can imbue a portion of a substance depending on your ranks in Alchemy. To imbue an object, you must physically apply one or more essence samples to the object using an action. The essences applied diffuse into the object instantly.
+        By tradition, a student of alchemy renders a selection of
+        Rank 1 = 1 liter
+        Rank 2 = 
+
+
+
+
+        As you gain ranks, you unlock qualities, and how many qualities a chemical can have.
+Qualities:
+Radioactive
+        Usefully Toxic/Poisonous
+        Explosive
+        Dissolving (Acid, Alkaline, Corrosive)
+        Endothermic (Freezing)
+        Sticky
+        Adhesive
+        Glow
+        Incendiary
+        Expanding
+        Foaming
+        Detergent (Cleansing, Soap)
+        Hard
+        Bouncy
+        Heavy
+        Lightweight
+        Liquify
+        Solidify
+        Gasify
+        Shrink
+        Enlarge
+Factors:
+        Volume or Mass of target. This is problematic, because one should be able to transmute the quality of weight/density and size.
+        Number of qualities being changed
+        Speed of transmutation
+        Value of material
+        Quality of laboratory {QoL | None, Improvised, Field, Basic, Advanced, Academy}
+        
+†
+________________
+    Companion
+Rank 1: You have a mundane companion that is well-trained and loyal to you. If the companion is not sapient, it has advantage in Survival checks that pertain to keeping itself alive within an environment that it is familiar with, and advantage in one of the following skills: Athletics, Acrobatics, Stealth, Perception, Intimidation, Performance. It is trained to obey simple commands from its master: ‘Guard’, ‘Stay’, ‘Come’, ‘Get Help’, ‘Hunt’, ‘Sneak’, ‘Scout’ etc. Even if the creature is not sapient, there is enough of a rapport between it and its master to convey at least simple information - ‘danger nearby’, ‘suspicion’, ‘trust’, ‘I understand’, etc.
+If the companion is sapient, it has proficiency in any two skills (or tools), or expertise in one, and it knows at least its own language (it may know one additional language, if they originate from a culture that normally knows more than one language).
+The creature deals low damage in combat and can be easily killed. Finally, if both the master and the companion are within arm’s reach of each other, then when one would sustain damage, the other may take the damage instead if they are aware of the assault.
+If the companion dies, you may retain the points spent in companion while attempting to gain a new companion. The new companion begins as if at rank 1, but grows to match what you have spent in the Companion feature at the rate of 1 rank every season (three months).
+
+
+Features purchasable by spending ranks:
+        +1 rank: Combat training. The companion gains +30 hit points, and its AC becomes 17. It can attack twice and it gains +2 damage. It gains proficiency on one body-based skill.
+        +1 rank*: Dire. The companion grows by 1 size category (small to medium, or medium to large, etc.) Its attacks deal +2 damage, and it gains advantage on intimidation checks. If it already has advantage on intimidation checks, it increases its bonus on intimidation checks by +2. *This feature costs 2 ranks if the companion already has the Giant feature (for a total cost of 3 ranks for both features).
+        +1 rank: Extraordinary. The creature may be of a celestial, infernal, fey, or otherwise supernatural origin. It gains resistance to one damage type, and a number of monstrous abilities (but not spells) equal to the character’s ranks in ‘Animal Companion’ minus 2 (Min 0, R2=0, R3=1, R4=2, etc). (see monster manual) that must be approved by the GM.
++1 rank*: Giant. The companion grows by 1 size category (small to medium, or medium to large, etc.) Its attacks deal double damage against structures (as a siege weapon), and it gains +5 movement speed. *This feature costs 2 ranks if the companion already has the Dire feature (for a total cost of 3 ranks for both features).
+        +2 ranks: Heroic. The creature starts down the path of becoming a hero. It gains Rank 1 of any other power set, and may gain further ranks in that power set as if it were a player character.
+        +1 rank: Intelligence and Education. The creature, if not already sapient, becomes so. It gains proficiency in two mind-based skills, or expertise in one. It gains the ability to speak two languages, or one language and one tool, or two tools, and can perform complex tasks.
++1 rank: Magical. Your companion is magical in nature. It learns one cantrip-type spell, and can be summoned and unsummoned magically using an action. If the companion is killed, its body is destroyed and its spirit forcibly unsummoned to some faraway location. Performing a day-long ritual involving a pint of the master’s own blood (or whatever counts for vital substance), and whatever components to reconstruct a body require, will re-construct the body and resummon the spirit of the companion.
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Companion reference page
+Story notes:
+        Most magic-users have some sort of familiar, ranging from rank-1 to rank-3 in power. These familiars, if not created by the magic-user themselves, are bequeathed upon them (incurring Debt) by a higher authority, either to train them, keep them out of trouble, spy on them, or to mentor them.
+        Many savage persons or wild folk have an animal companion that aids them in the wilderness, usually rank 1, or rank 2 (Combat Training).
+        Nobles will often have a valet, page, or squire, rank 1 or rank 2 (Intelligence and Education), to help them navigate the muddy waters of house politics.
+        Some heroes have a companion that is not animal in nature. The sword of a paladin may be inhabited by a holy spirit, or the tome of a necromancer may be similarly haunted - the ‘Magical’ and ‘Extraordinary’ features are meant to allow for this freedom of interpretation.
+        Some background must be developed for the companion as well. If the companion is a valet or squire, then (s)he must have come from somewhere, and most likely, from a wealthy family in good relations with the player character’s own. If the creature is extraordinary, then the player character maybe had to travel to some alien plane and subdue the creature to gain its service. If the creature is magical, perhaps it was experimented on to become so, and enhanced by artificial means. If the creature has the ‘Intelligence and Education’ feature, then it must have spent an extensive amount of time, at least three months, under some form of tutelage - if there aren’t any sages or schools nearby, then the companion may have some adventures of its own during that journey.
+
+
+
+
+
+
+
+
+
+
+
+
+________________
+Soul Magic
+Perhaps the most powerful magic in the universe, soul magic allows one to tap into the infinite depth of
+
+
+
+
+Rank 1 Perk - Psychopomp. You can sense souls that have recently been released from their vessels, or are nearly about to do so. Additionally, when conversing with these souls, they tend to treat you as a welcome friend.
+
+
+Find Soul: Disembodied souls 
+Channel: 
+Possess: 
+Crystallize: 
+
+
+
+
+Binding Magic
+You can bind spells to your life force. While you are alive, these bound spells are maintained as if you had cast them and are maintaining concentration on them.
+
+
+Rank 1 - You can bind 1 spell
+Rank 2 - You can bind 3 spells
+Rank 3 - You can bind 12 spells
+Rank 4 - You can bind 40 spells
+Rank 5 - You can bind 100 spells
+
+
+Perks
+
+
+Spells
+Bind Spell
+(GM Note: A spell of unbinding should only be available in a different school - something like spellbreaking. This separation makes the decision to bind a spell an important one - if it is hard to reverse, then one would want to consider the consequences of binding.)
+
+
+
+
+________________
+
+
+Mantras
+You are a master of mental discipline - you have trained your mind such that your body is no longer a slave to the laws of physics. While maintaining concentration on a mantra, you gain its supernatural effects. You may begin concentrating on a mantra 
+Mantra of the Feather Body - body is as light as a feather, +1 advantage as if dodging (does not reduce attack damage, but does make you harder to hit), +1 to climbing and balancing checks.
+        Broken concentration: Body is knocked back, off balance, prone
+        AKA: Mantra of the Reed of Grass.
+Mantra of the Diamond Body - resist illness, toxin, and harsh environment
+        Broken concentration: Immediate onset of symptoms/illness
+        AKA: Mantra of the Warm Hearth
+        Critical Effect / Mastery Effect: Immunity to illness, toxin, and harsh environment. Immunity to age-related effects (cannot die due to age.)
+Mantra of the Anvil - Your body is as heavy and hard as iron, +1 advantage as if wearing armor. (Does not reduce difficulty to hit, but does reduce damage)
+        Broken concentration: Body is knocked back, off balance, prone
+Mantra of Wariness - The first (single/two/three) attack against you in a day (round?) always misses. And you never suffer disadvantage due to surprise.
+        Broken concentration: The next attack against you is a critical hit
+Mantra of the Wind - movement and +1 attack
+        Broken concentration: Body is knocked back, off balance, prone
+Mantra of Shadows - While obscured, you can choose to be either invisible and perfectly silent, or to project several illusory doubles.
+        Broken concentration: The next attack against you is a critical hit
+Mantra of Serenity - You instill emotions of calm and peace amongst those around you. +1 advantage to persuasion and insight, +1 advantage to concentration to all creatures within 4 meters. These advantages increase to +2 to another creature you touch.[3]
+        Broken concentration: Those around you are either immediately enraged or suffer -1 advantage to concentration and social interaction checks.
+Mantra of the Hammer - Your attacks
+
+
+Flight
+Split into multiple - shadow clones
+Master of disguise
+
+
+
+
+Perks
+Rank 3 - You can maintain two Mantras with a single concentration stream.
+Rank 5 - (Something needs to be here. Ranks 1 and two give you enough power without the need of perks. Rank 3 allows you to equip 2 out of 3 mantras. Rank 4 allows you to have the effect of four mantras if you took the dual-concentration feat. Rank 5 though? Maybe one mantra of your choice become a permanent, innate, un-dispellable effect that does not require concentration.)
+
+
+Feat: You may meditate on one of your montras
+
+
+
+
+MONK NOTES
+geomancy
+        Druidcraft, Thaumaturgy, Prestidigitation
+dojo
+mysticism
+discipline of mind
+three step wind walk
+
+
+Imagine combining with sarcurgy - you can cut people's limbs off with your kung fu strikes
+
+
+
+
+References: https://en.wikipedia.org/wiki/Ninja, https://en.wikipedia.org/wiki/Mantra, Wuxia films.
+________________
+
+
+Traits and Feats
+These abilities cost as much as a Rank 2 ability (~2, 3 or 4 levels).
+
+
+NEW INSPIRATION FOR BACKGROUNDS AND STORY ARCS:
+Treat them as open-ended qualities - not unlike the injury system, where if one had the following background features:
+        Elf
+        Parent to daughter
+        Anointed Knight
+        Heavy Armor Training
+        Swift Temper
+        Honest
+...then this character would be able to leverage these traits for advantages when they contextually apply. Notice the last two: ‘Swift Temper’ and ‘Honest’ these can also be considered handicaps in addition to any advantages they may grant, because these allow a GM to impose a disadvantage on the character, forcing the character to respond with violence in the case of ‘Swift Temper’, or fail to deceive effectively in the case of ‘Honest’. Involving these traits in a scene grants the character experience points - thus incentivizing using traits! Generally, mechanical advantages from these traits should not be a constant effect, but a situational one - a trait like ‘Strong’ should probably be vetoed due to how generally applicable physical strength is. A better trait might be ‘Brutish’, or ‘Heavy build’ - as these offer more nuance and situational differences than ‘Strong’.
+
+
+
+
+
+
+Combo
+Whenever you successfully hit a target after having successfully hit it with your next most recent attack, you may [forgo the damage of your attack to] apply one of the following effects:
+Combo:
+	Description
+	Break Armor
+	You can reduce the Defense rating of your target by 1 (to a minimum of 7).
+	Cleave
+	You deal damage equal to the damage of your last attack to an adjacent target.
+	Daze
+	The target cannot make attacks of opportunity until the start of your next turn.
+	Dodge
+	You may move up to 10’ without provoking attacks of opportunity.
+	Demoralize
+	The target cannot contest an intimidation check until the start of your next turn.
+	Disarm
+	The target drops their weapon.
+	Expose
+	Allies have advantage on attacks versus this target until the start of your next turn.
+	Grapple
+	The target is grappled by you (melee only).
+	Hamstring
+	The target’s movement speed halved during its next turn.
+	Mortal
+	The damage of the next critical hit the target suffers before the start of your next turn is doubled.
+	Pressure Point
+	The target has disadvantage on the chosen checks of a skill until the start of your next turn.
+	Shove
+	The target is forced 5’-15’ away from you. (Distance determined by terrain, weight, force, and skill.)
+	Taunt
+	The target has disadvantage on attacks versus targets other than you until the start of your next turn.
+	Throat shot
+	The target cannot speak or otherwise use their voice until the start of your next turn.
+	Trip
+	The target falls prone.
+	Unbalance
+	The target cannot use the disengage action until the start of your next turn.
+	        Other labels: Discouraged, Shaken
+________________
+
+
+Imbue Weapon with Magic
+You gain a new action ‘Imbue Weapon with Magic’. Performing this action charges your next attack with magical energy, delivering an effect of you choice from the list below:
+Effect Name:
+	Description
+	Banish
+	You use abjuration magic to try to temporarily banish your target to a harmless location in the Feywild. The creature hit by the arrow must also succeed on a Charisma saving throw or be banished. While banished in this way, the target’s speed is 0, and it is incapacitated. At the end of its next turn, the target
+reappears in the Space it vacated or in the nearest unoccupied space if that space is occupied. After you reach 18th level in this class, a target also takes 2d6 force damage when the arrow hits it.
+	Beguile
+	Your enchantment magic causes this arrow to temporarily beguile its target. The creature hit by the arrow takes an extra 2d6 psychic damage, and choose one ofyour allies within 30 feet of the target. The target must succeed on a Wisdom saving throw, or it is charmed by the chosen ally until the start of your next turn. This effect ends early if the chosen ally attacks the charmed target, deals damage to it, or forces it to make a saving throw. The psychic damage increases to 4d6 when you reach 18th level in this class.
+	Sleep
+	
+
+	Enfeeble
+	You weave necromantic magic into your arrow. The creature hit by the arrow takes an extra 2d6 necrotic damage. The target must also succeed on a Constitution saving throw, or the damage dealt by its weapon attacks is halved until the start of your next turn. The necrotic damage increases to 4d6 when you reach 18th level in this class.
+	Entangle
+	When this arrow strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The creature hit by the arrow takes an extra 2(16 poison damage, its speed is reduced by 10 feet, and it takes 2-d6 slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength (Athletics) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again. The poison damage and slashing damage both increase to 4d6 when you reach 18th level in this class.
+	
+
+	
+
+	
+
+	
+
+	Darkness
+	You weave illusion magic into your arrow, causing it to occlude your fees vision with shadows. The creature hit by the arrow takes an extra 2d6 psychic damage, and it must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of your next turn. The psychic damage increases to 4d6 when you reach 18th level in this class.
+	Shine
+	
+
+	Enrage
+	
+
+	Panic
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+Voice of Truth
+As long as your character keeps their word, and never attempts to mislead, tell half-truths, lie, or otherwise deceive, then non-player characters always take your character at their word, and believe the sincerity of your character.
+
+
+(Not a secret GM note: This trait will likely cause a disagreement. But stand fast! If a player chooses this, and they fail the requirement, then they lose this trait permanently, and get no replacement in return.)
+
+
+Secret Passageway
+Spend one inspiration to find a secret passageway. It opens. ..
+
+
+Dead Man’s Spell
+Any spells that you cast that were active at the time of your death, continue on permanently as if you were concentrating on them.
+
+
+Red-eye Ring
+Your eyes glow red. Any creature within 20’ of you that is aggressive enough to attack a creature, attacks you first.
+
+
+
+
+________________
+
+
+Arcane[z]
+You are devoted to the understanding of Magic.
+
+
+Study / Read / Learn
+
+
+
+
+
+
+Rank 1
+Transcribe Spell
+        < This should probably be a general ability, based on one’s language or technical skill. >
+        When you encounter a spell that has been written down, you can transcribe a copy of that spell into a scroll.
+        If you have seen a spell performed, you can transcribe that spell into a scroll. Simple spells (Rank 1) you only need to have witnessed once within the past month or so. More complex spells you may have to have taken notes, seen the spell being performed multiple times, been given a tutorial of the spell by the spell’s caster, etc. to be able to transcribe it.
+
+
+
+
+Sense Magic
+You can sense the presence of magic.
+Factors: School, Rank, Recency, Identity of Caster, Methods of Dispelling
+
+
+Read Magical Writing
+        While almost anybody can USE a magic scroll (GM/setting depending), only an experienced magic-user can read the scroll. At Arcane Rank 1, you can read nearly any magical writing, and interpret a scroll’s use and effects. Particularly difficult, rare, powerful, obscure, or poorly written or cursed scrolls may require a roll to confirm your initial interpretation[4]. At Rank 4, you always succeed on this roll. At Rank 5, you can read one discrete article of writing (a scroll or a book)  simply by touching it for one second.
+
+
+Rank 2
+Cantrip
+At rank 2, you may choose one Rank 1 magical spell. You can cast this spell as if you had Rank 1 in the chosen spell’s ability.
+
+
+Rank 3
+
+
+
+
+
+
+
+
+
+
+
+
+________________
+
+
+        Hunter
+For a chosen creature or creature type:
+        You always detect the signs of the creature’s dwelling, passage, and deeds.
+        You can speak, read, and write the creature’s language (if any).
+        You know the creature’s habits, needs, desires, fears, strengths, and weaknesses.
+        You can survive, find traversable paths, and provide sustenance for up to six allies in the creature’s preferred environment, even if that environment is very harsh.
+        You have advantage on Wisdom and Intelligence checks relevant to that creature and their environment.
+        The chance your attacks (or a given skill) critically hit versus that creature and their minions is increased by 5% (19 on a d20 is considered a natural 20).
+
+
+        Note: Imagine if a character wanted to say: “treasure” or “women” as their chosen ‘creature’? Perhaps this feature should be opened up to include concepts beyond the ranger stereotypes.
+A short list:
+
+
+Creatures
+	Inanimate Objects
+	Intangibles
+	A Species of Humanoid*
+Wenches
+A Particular Person
+Followers of a Religion
+Members of an Organization
+Subjects and Rulers of a Nation
+A Type of Monster or Creature
+        Undead
+        Bears
+        Etc.
+	Unmined Precious Metals
+Ancient Ruins
+Tomes and Libraries
+Inns, Taverns, Pubs, Bars, and Brothels
+
+
+	Shady Deals
+Magic Spells (To be Learned)
+Political Power (Specific Goal)
+
+
+	*Note: In many campaign settings, humans make up so much of the population, that the choice of Human for this ability would be too broad to be meaningful. Your GM will likely require you to make a narrower choice.
+        Experience points are gained by:
+Acquiring valuable items through coercion or theft - bonus if the crime goes unnoticed or someone else is convicted for the crime.
+________________
+Crafter?
+Factors:
+        Profit
+Saleability
+speed to craft 
+max quality/rarity of item
+how easily can resources be obtained?
+
+
+Diplomat / Politician
+        You know major politicians, and you know what they would be willing to bargain for
+
+
+Fast Hands (Quick Draw)
+You may use a bonus action to perform any of the following actions: Dash, Disengage, Hide. You may also use a bonus action to perform a Dexterity check. Drawing or stowing your weapons does not require any action at all for you.
+________________
+Fighter / Combat Training / Armor Training / Defense / Attack / Damage / Martial Training
+CONSIDER REDOING FOR GENERAL COMBAT RULES
+        ‘Combat’ should probably be just another skill like ‘Social Interaction’, with verbal modifiers like “duel-wielding”, “quick”, “strong”, “two-handed”, “shield”, “battle-magic” etc to add versatility and diversity to combat options.
+        If you have attacks, you may withhold them to parry incoming attacks instead. This allows light-weapons/dual-wielders to use excess attacks to survive. Can two-handed heavy-weapon wielders ‘trample’ through parries/blocks?
+
+
+
+
+Rank 0: basic
+        Using the attack action: 
+        Successful attacks: 
+        Unsuccessful attacks: 
+        
+Rank 1: You can now use one type of weapon effectively enough to inflict severe or mortal injuries. Your weapon of choice can be a type of object normally used as a weapon, or a magic that is capable of inflicting injury. Any other choice requires GM approval.
+Rank 2: Choose one of the features listed below.
+Rank 3: Choose one of the features listed below.
+Rank 4: Choose one of the features listed below.
+Rank 5: Choose one of the features listed below.
+
+
+* Tough - You can now suffer a number of severe injuries equal to your ranks in ‘Combat’ before entering a ‘Mortal’ state.
+   * Juggernaut - You can now suffer three mortal injuries before dying. Prerequisite: ‘Tough’.
+* Versatile - You can use any weapon, and you can use anything as a weapon.
+* Multiattack - You can attack twice whenever you take the Attack action.
+* Deadly - While wielding a weapon with both hands (Magic counts for this), your critical hits inflict ‘Mortal’ injuries instead of ‘Severe’ injuries.
+   * Brutal - While wielding a weapon with both hands, your normal hits inflict ‘Severe’ injuries instead of ‘Light’ injuries.
+* Precise - When you attack, you also critically hit on a 17, 18, 19, in addition to 20. (Or a 5, in addition to a 6, if using a six-sided die.)
+* Quick Attacks - If you have taken at least one attack action on your turn, and you are wielding a weapon in each of two hands, you gain one extra attack. Magic does not count for this.
+* Heavily Armored - You can use heavy armor effectively and without penalty. Light and Medium armors grant +1 and +2 armor respectively, while Heavy armor grants +3.
+* Shield Training - While wielding a shield, as a Reaction, you can block a number attacks per round equal to your ranks in ‘Combat’. Blocking an attack reduces the injury inflicted by that attack by two degrees; Death to Severe, Mortal to Light, Severe and Light injuries are entirely negated.
+   * Shield Bash - As part of the the reaction in which you have blocked an attack, you can move up to 10 feet in the direction of the attacker. If that movement would cause you to collide with your attacker, the attacker is shoved. Prerequisite: ‘Shield Training’.
+* Parry - While wielding an appropriate weapon for parrying, as a Reaction, you can Parry an attack if you have taken the attack action and reserved attacks for the purpose of parrying. Parrying an attack may be impossible if the attack comes from an especially strong attacker or from an effect that causes damage over an area. Successfully parrying an attack negates any injuries inflicted by that attack.
+   * Counter-attack - Whenever you successfully Parry an attack, you can attack your attacker as a Reaction. Prerequisite: ‘Parry’.
+* Dodge - While not over-encumbered, you can dodge an attack as a Reaction. To dodge an attack, reduce your movement by 15 feet. If you have movement less than 15 feet, your attempt to dodge fails. Your character remains in place in either case. A successful dodge negates any injuries inflicted by the attack. If an attack has an area of effect, the GM will likely rule that any injuries sustained by the attack are reduced by one or two degrees instead of negated.
+   * Reposition - When you successfully dodge, you may move up to 10 feet. Prerequisite: ‘Dodge’.
+   * Uncanny Dodge - Dodging only requires 10 feet of movement instead of 15 feet. Prerequisite: ‘Dodge’.[aa]
+
+
+Old ‘Fighter’ features
+________________
+
+
+You have trained for combat. Using a weapon or appropriate magical skill, you can inflict damage on your enemies, and deflect their attacks.
+Opposed roll. Attacker d20*ranks+1 minus defender d20*ranks+1 = damage done by attacker to defender, floor = 0.
+Opposed roll. Attacker 3d6*ranks+1 minus defender 3d6*ranks+1 = damage done by attacker to defender, floor = 0.
+Opposed roll. Attacker/Defender d%. (Doesn’t really work)
+
+
+Rank 1: Average damage against Rank 0 = 11 damage. You may dodge once per combat.
+Rank 2: Average damage against Rank 0 = 21 damage.
+Rank 3: Average damage against Rank 0 = 32 damage.
+Rank 4: Average damage against Rank 0 = 42 damage. You may dodge twice per combat.
+Rank 5: Average damage against Rank 0 = 53 damage.
+
+
+Dodging: When you take damage, you may use your reaction to dodge. Doing so negates the damage and any effects associated with that damage. Optionally, you may dodge a number of times equal to your Finesse or your ranks in Fighter, whichever is least.
+Modifiers:
+Number of attacks: Normally, an attack takes 1 action, and can only target one creature. However, you can increase the number of targets you can make per attack action by reducing damage. Divide your damage by the number targets you can target per turn. Optionally, your number of attacks is either equal to, or limited by, your Finesse.
+Defense Focus: At the beginning of combat, you may choose to focus on defense. Doing so allows you to consider your defense rolls to be 1 rank higher than normal. This comes at the cost of considering your attack rolls at 1 rank lower than normal.
+Offense Focus: At the beginning of combat, you may choose to focus on offense. Doing so allows you to add 15 damage to a successful hit. This comes at the cost of considering your defense rolls at 1 rank lower than normal.
+
+
+This mechanic assumes that average player character hit points = 100.
+Option: You may only roll a number of defensive rolls per turn equal to your Finesse.
+When you have advantage, your attack and defense rolls are improved as if your rank in Fighter is increased by 1.
+When you have disadvantage, your attack and defense rolls are reduced as if your rank in Fighter is decreased by 1.
+Not wearing appropriate armor grants you disadvantage on defense rolls.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Flurry of Blows
+Unarmed, fists, or natural weapons only. You may make three attacks when you use the Attack action.
+Martial Prowess
+When you use the attack action, you may make a number of attacks equal to the following equation: Attacks = ⅓(Strength Modifier + Dexterity Modifier + Constitution Modifier) round down.
+
+
+
+
+
+
+Inspiration
+Through your words, deeds, or art, you inspire those around you to greatness. You have a pool of d6’s with which you can help your allies. As a reaction, you may give an ally a d6 that they can roll and add to an ability check, saving throw, or attack roll. You have as many of these dice as your charisma modifier. You regain them at the end of a long rest.
+
+
+
+
+
+
+________________
+Leadership
+You are a born leader. When you speak, eyes look to you. When you command, those following your orders become more competent.
+
+
+Command / Order / Encourage / Inspire
+A target must have ranks or skill proficiency that they can use to accomplish your order.
+A target must reasonably abide the confines of your order to gain the benefits of this ability.
+The duration of benefits lasts 1 round, or until they complete their orders, whichever comes first.
+If a target’s ranks are greater than 1 and less than your ranks in Leadership, they perform their order as if their ranks are equal to your own in Leadership. If a target’s ranks exceed yours in Leadership, they get +1 to those ranks.
+
+
+Rank Benefits
+At rank 1, you can affect 1 target. Rank 2 = 4 targets. Rank 3 = 16 targets. Rank 4 = 64 targets. Rank 5 = 256 targets.
+Targets = 4^(Ranks-1)
+
+
+Perks
+< lieutenants are gained from companion ability >
+
+
+
+
+
+
+
+
+________________
+Fighting Style
+Once you choose a fighting style, you can freely draw/stow weapons that you are proficient with.
+DEV NOTE: Try to consolidate fighting styles such that they are about equal in power to 1 fighting style + 1 feat. This has been done with Dual Wielder and Archery, notice, as well as a few others.
+        Need flurry of blows to go somewhere
+        ** Perhaps each of these styles comes with a narrative description (to help adjudicate edge cases) and a specific action. See the ‘Block’ action under shield master.
+Great Weapon: You may reroll 1’s and 2’s on damage dice (keeping whatever is rerolled) when using a two-handed weapon. You may also choose to reduce your chance to hit by 25% for a +10 to damage. Also, if you reduce a creature to 0 HP, any remaining overkill damage is automatically applied to an adjacent target (if using a melee weapon), or a target behind the first (if using a ranged weapon).
+Dual Wielder: When using a weapon in each hand, you gain the following features: ‘Offhand parry’+1 to AC. ‘Flurry’ +2 attacks as a bonus action when using the attack action. What about fisticuffs?
+Grappling: You have advantage on attack rolls against a creature you are grappling. You can use your action to pin (fully restrain) a creature that you have already grappled (requires a second successful grapple check). Your grapple checks don’t automatically fail when attempting to grapple a creature that is larger (even if it has a significantly higher strength) than you.
+Duelist: When using a single one-handed weapon (small shields in offhand allowed), you gain a +2 bonus to damage rolls for that weapon. Also, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing that attack to miss you.
+Armored: You gain +1 to AC while wearing armor. If the armor is Heavy, you take 3 fewer damage. If the armor is Medium, you may add 1 more dexterity to a maximum of +3 to your AC, rather than the normal +2.
+Archery / Thrown Weapon: Your chance to hit when using ranged weapons is increased by 10%. And you can ignore penalties to hit and you negate AC bonuses that targets have due to partial cover.
+Crossbow Expert (? ? ?):
+Mage Slayer:
+Mounted Combat:
+Polearm Master:
+        Also, you may use an action to ‘ready’ the weapon. Doing so grants you advantage on attack rolls made when using your reaction or bonus action until the end of your next turn.
+
+
+
+
+Savage Attacker: Once per turn
+Sentinel
+Tavern Brawler: (can this be consolidated with grappler? Or Dual-wielder? Or is that too much?)
+War Caster / Spell Sniper:
+Exotic: Add/remove features from weapon items. Similar to my Weapon Master change, but without that +hit or +damage.
+
+
+Antagonistic: If an enemy attacks an ally within 5 ft. of you, you can use your reaction to have the attack focus on you.
+Plunging attack: If at any time you would suffer falling damage by falling onto another creature, you may instead choose to make an attack roll to have that creature suffer the damage. You may add your weapon damage. If a natural 1 is rolled, you suffer the damage as normal.
+Protection / Shield Master: You may ‘Block’ as an action. While using the Block action (blocking), opponents have disadvantage to hit you. If they do hit you, you cannot be moved by the force of their hit. Additionally, you may use your reaction to impose disadvantage on an attack versus a creature within arm’s reach of you.
+Rage: You may enter a rage as a bonus action. Your rage lasts 1 minute. During this time, you have advantage on intimidation checks, strength checks, and strength-based attack rolls. After your rage ends, you gain 1 level of exhaustion for 2 hours. While raging, you cannot perform intelligence-based checks, and cannot cast or concentrate on spells. Possible additions: Advantage on death saving throws. Can keep fighting while making death saving throws. +2 damage.
+Reactive: If you do not attack on your turn, you may use your reaction to attack.
+Team: Instead of moving on your turn, you may choose to move with a teammate.
+
+
+Plunging / Diving: If you would suffer an injury upon falling onto or adjacent to a enemy, you may make an attack on that enemy. If successful, then you may transfer any injuries onto the enemy that you would have suffered from the fall.
+        Good for dragoons.
+Charge-up / Aim: Choose a powerset. For this powerset, you gain a new action: ‘Charge-up’. If you use the ‘Charge-up’ action three times in a row, your next action for the chosen powerset gets a free +1 rank raise.
+
+
+
+
+  Thief
+Deception
+Con,Sting,Rook,Swindle,Grift,Fraud,Scam,Racket,Extortion,Blackmail,Defraud,Bilk,Dupe,Bamboozle,Hoodwink
+        Disguise Self (Hide Identity: disguises limited to obscuring your identity, not taking another’s)
+        Rumormongering
+        Forgery
+                False Documents
+                False Artifact
+Infiltration
+Sneak/Hide/Stealth
+Detect Resistance (low level Divination as perk? Danger sense?)
+        Detect Traps*
+        Detect Patrols, Watches, Guards
+        Detect Ingress/Egress, Secret Doors
+Pilfer
+Pickpocketing
+Lockpicking
+Secrets
+        Secret Language
+                Send/Receive coded messages
+        Decypher
+Sell/Buy Contraband
+        Black Market
+        Fence
+        Appraise
+AD&D 1st ed
+LEVEL
+	Pick Pockets
+	Open Locks
+	Find/Remove Traps
+	Move Silently
+	Hide in Shadows
+	Hear Noise
+	Climb Walls
+	Read Languages
+	Avg chance
+	Simple count
+	
+
+	1
+	30
+	25
+	20
+	15
+	10
+	10
+	85
+	-
+	6
+	4
+	Rank 0
+	2
+	35
+	29
+	25
+	21
+	15
+	10
+	86
+	-
+	6
+	5
+	Rank 0
+	3
+	40
+	33
+	30
+	27
+	20
+	15
+	87
+	-
+	7
+	6
+	Rank 0
+	4
+	45
+	37
+	35
+	33
+	25
+	15
+	88
+	20
+	7
+	7
+	Rank 1
+	5
+	50
+	42
+	40
+	40
+	31
+	20
+	90
+	25
+	8
+	8
+	Rank 1
+	6
+	55
+	47
+	45
+	47
+	37
+	20
+	92
+	30
+	9
+	9
+	Rank 1
+	7
+	60
+	52
+	50
+	55
+	43
+	25
+	94
+	35
+	10
+	10
+	Rank 1
+	8
+	65
+	57
+	55
+	62
+	49
+	25
+	96
+	40
+	11
+	11
+	Rank 2
+	9
+	70
+	62
+	60
+	70
+	56
+	30
+	98
+	45
+	12
+	12
+	Rank 2
+	10
+	80
+	67
+	65
+	78
+	63
+	30
+	99
+	50
+	13
+	13
+	Rank 2
+	11
+	90
+	72
+	70
+	86
+	70
+	35
+	99.1
+	55
+	14
+	14
+	Rank 2
+	12
+	100
+	77
+	75
+	94
+	77
+	35
+	99.2
+	60
+	15
+	15
+	Rank 3
+	13
+	105
+	82
+	80
+	99
+	85
+	40
+	99.3
+	65
+	16
+	16
+	Rank 3
+	14
+	110
+	87
+	85
+	99
+	93
+	40
+	99.4
+	70
+	17
+	17
+	Rank 3
+	15
+	115
+	92
+	90
+	99
+	99
+	50
+	99.5
+	75
+	18
+	18
+	Rank 4
+	16
+	125
+	97
+	95
+	99
+	99
+	50
+	99.6
+	80
+	19
+	19
+	Rank 4
+	17
+	125
+	99
+	99
+	99
+	99
+	55
+	99.7
+	80
+	19
+	20
+	Rank 5
+	
+
+different Categories might aid skillset cleanup
+        Graft: Practices, especially bribery, used to secure illicit gains in politics or business; corruption.
+                Bribery/Extortion, 
+
+
+
+
+Invention/Discovery
+You have invented or discovered something that will change the world.
+
+
+Wealth
+
+
+
+
+Epic Class Features:
+        Dragon Rider, Archmage, Avatar, Anointed One, 
+
+
+Training and Experience
+        Wizard’s College: Read Scroll, proficiency in Arcana, proficiency in a language, can cast ’find familiar’ as a ritual even without components,
+        Streetsmarts: 
+        Burglary
+        Gladiator
+        Wildling
+        Savage
+
+
+Barbarian
+Bard
+Cleric
+Druid
+Fighter
+Paladin
+Monk
+Ranger
+Rogue
+        Sneak Attack, Expertise, Cunning Action, Uncanny Dodge
+Sorcerer
+Warlock
+Wizard
+
+
+Spark        Bolt        Storm
+Ember        Flame        Blaze
+Frost        Ice        Polar
+Breeze        Wind        Tornado
+Sprout        Plant        Forest
+Shadow        Night        Eclipse
+Shine        Day        Solstice
+Mist        Rain        Flood
+Dust        Dune        Avalanche
+
+
+________________
+Story Arcs
+How you gain experience. Characters earn character progression points by performing these roles. They get bonus points for acting as a unified party, and another bonus for making the story more interesting or compelling. Consider: Granting multiple story arcs that conflict with each other. Though, ideally, the story arc is something that presents a self-contained and organic-feeling conflict
+
+
+SEE ABOVE NOTE
+
+
+Addict
+You are no longer incapacitated by an average dose of a specific intoxicating drug. However, if you go a day without consuming a dose of that drug, you increase your exhaustion or insanity by 1. Every time you take a dose of this drug, you gain 1 inspiration. If you are cured of this addiction, you gain 2 inspiration and lose this Arc.
+
+
+Bleeding Heart
+When someone is in pain, you will always divert from your mission to help them. You gain 1 inspiration when you do.
+
+
+Bloodthirsty
+(+1 character building point for character creation)
+If you go a day without consuming a pint of blood or pound of flesh from a living sapient creature, you increase your exhaustion or insanity by 1. Each day that you consume at least 1 pint or 1 pound of flesh from a living sapient creature, you gain 1 inspiration.
+Good for vampiric/werewolf characters. 
+
+
+Charity 
+Every time you give up a possession that you could otherwise use to great advantage to an NPC that needs it, you gain 1 inspiration.
+
+
+Contract[ab]
+(+1 character building point for character creation)
+Your character has signed a contract with a powerful character prior to the beginning of the campaign. The details of that contract will be finalized by the GM. Every time you fulfil an order required by your contract, you gain 1 inspiration. If you fully satisfy the contract, gain 2 inspiration and lose this Arc. If you break the contract, lose this Arc and gain the Nemesis Arc.
+
+
+Coward
+Your first strategy is to flee. Every fight in which your allies engage and you do not, you gain 1 inspiration.
+
+
+Fame
+Every time you gain the attention of a crowd (at least three people that are not your fellow players’ characters) due to your famous reputation, you gain 1 inspiration.
+
+
+Nemesis
+You have earned the enmity of a powerful character in the story. You and your nemesis gain advantage on checks regarding knowledge on the activities of each other. Each day that you lay hands on your nemesis, or gain a new clue that leads you to them, you gain 1 inspiration. If you foil your nemesis’s plot, you gain 2 inspiration, and lose this Arc.
+
+
+Obsessive
+When you encounter a puzzle, you cannot concentrate on anything else until it is solved. You gain 1 inspiration every time you solve a significant puzzle.
+
+
+Pugnacious
+You carry a pocket atlas that has check marks in all the cities and villages in which you've had a fight. It is incomplete. You gain 1 inspiration every time you start a fight or otherwise incite violence.
+
+
+Thief
+You gain 1 inspiration for every illegitimately acquired amount of wealth. The amount of wealth is determined by the GM at game start, and will depend on the difficulty of the campaign, and the scale of wealth in the campaign. For D&D 5e, it’s around 20gp per level-squared.
+
+
+Vengeance
+You are seeking revenge against a particular person. Each day that you lay hands on your that person, or gain a new clue that leads you to them, you gain 1 inspiration. Once your vengeance is satisfied, you gain 2 inspiration, and lose this Arc.
+
+
+
+
+
+
+________________
+The Story of the Dragonborn
+The dragons were the only sentient race at first, and they were lords of nature.
+They create the races of peoples to make war on each other, but then the armies of the peoples make war on dragons.
+Now dragons must hide and pay tribute to peoples to pay for their survival, thus they guard their treasure jealously.
+Thus why dragons are so avaricious.
+Nearly extinct, some dragons choose to not remain separate from the people, and so create children with them.
+Thus came the dragonborn.
+
+
+Do you know the story of the dragonborn? If you don’t know what a dragonborn is; they also go by the epithets: dragonman, scalyface, lizard-in-boots. A race of tall, strong, people with the face and hide of a dragon. How they came to be is not known, but they tell a story - thus:
+        Once upon a time, before the speaking races, dragons were the lords of nature. All the beasts, birds, fish, green things, and creeping vermin bowed before them. Even the sky, the sea, the earth, and fire obeyed the dragons’ whim. The dragons ate and drank as they liked and nature provided.
+        But one day, one dragon was hungry. He hunted and stalked a creature for a day and through the next night, and at dawn, he had an opportunity to attack. But before he could pounce upon his prey, a second dragon caught and killed it. The first dragon was angry, and said he had the right to feed on the kill because he had been stalking it for all the previous day and night. The second dragon, mouth filled with the prey’s flesh retorted: The prey was merely another beast until I had killed it, therefore, the right to feed was mine.[ac] The first dragon returned home, angry and unsatisfied. He had thought to fight the other dragon, but he did not want to suffer injury. Nursing his anger and empty belly, he slept. The next day, he had a plan. The dragon went to the shore and asked the earth: Earth, lend me your strength. And the earth, knowing the dragon was lord of nature, did so. The dragon then fashioned a man-shape from the earth. He then called upon the sea to bestow upon his man-shape the power to bend and change. The dragon then called upon the raven to bestow the power of thought on the man-shape, and the raven did so. The dragon looked upon his work and thought: Not as beautiful as a dragon - a rather plain and brown looking thing, but it will serve. The dragon then woke the man-shape and told it to multiply itself into an army. The man-shape began to work, calling on the earth, and sea, and the raven just as the dragon did. It took the man a year and a day, and when he was done, he went to the dragon and said: Look at the multitude I have created of myself, are you pleased? The dragon said that he was not yet pleased, and that the man must find and slay the dragon that had stolen his prey. The man nodded, and left with his army to find and slay that dragon. Finally the army found the second dragon, and did a fierce battle with it. The second dragon was hurt, but was not killed, and slew all but one man, and he asked the man why he was attacked. The man told him, for the man was still a part of nature, and obeyed the dragon just as nature must. He told the dragon how he was made from the earth, the sea, and raven, and that he must kill the dragon. 
+        The two dragons build armies, and they grant the armies free will, and the men of the armies kill so many dragons that the remaining dragons must hide.                                                                                                                                                                                                                                                                                                                                                                                       
+
+
+The Story of Mithril
+Now: Dwarves and Elves are enemies (not enemies but poor relations)
+Then: Close allies
+Why? Someone stole the secret of mithril
+
+
+Now: Mithril is seen as quintessentially elven
+Then: Dwarves are the masters of mithril
+OR: vice-versa
+
+
+What happened? Who stole from whom? When? How? What does it reveal about the TRUE nature of mithril? What does it reveal about elves and dwarves and their lost friendship?
+
+
+Did you know that mithril was originally found by the dwarves? It’s obvious if you remember that dwarves are the only people that can mine the ore
+
+
+The Story of Old Amaranthum
+“Have you ever heard the tale of Old Amaranthum?
+
+
+Back before the beginning of time, this place was a fertile but empty river delta. But over time, all the tribes of all the awakened races came to this place, with each tribe bearing a stone. When a tribe finally arrived, they dropped their stone. The stones became the foundation. Then the stones became the Outer Walls. Then the stones became the Harbor and Houses. Thus, the city was built.”
+
+
+
+
+________________
+
+
+Icons
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+________________
+
+
+On Dice Mechanics:
+Many rolling (or other randomization) systems will work with the above rules. For those that prefer dice, I have listed a few options:
+Percent chance of success
+	d%
+	1d20
+	3d6
+	2d6
+	1d6
+	DC equivalent
+(Bonus = 0)
+	Notes: “How possible?”
+Situations appropriate for difficulty.
+	1
+	1
+	1
+	3
+	
+
+	1
+	21
+	“Strictly impossible.”
+	2
+	2
+	1
+	4
+	
+
+	
+
+	20
+	“Nearly impossible.”
+Expect to lose everything. Only a truly miraculous effort will succeed. Crippling handicaps and disadvantages. A critical failure results in extensive, wide-ranging catastrophe.
+	5
+	5
+	1
+	5
+	
+
+	
+
+	20
+	10
+	10
+	2
+	6
+	
+
+	
+
+	19
+	15
+	15
+	3
+	7
+	
+
+	2
+	18
+	20
+	20
+	4
+	
+
+	
+
+	
+
+	17
+	“Very difficult.”
+The difficulty of learning a new profession or language. Sometimes, even a victory will be pyrrhic. A critical failure could result in losing every expendable resource.
+	25
+	25
+	5
+	8
+	
+
+	
+
+	16
+	30
+	30
+	6
+	
+
+	
+
+	3
+	15
+	35
+	35
+	7
+	9
+	
+
+	
+
+	14
+	40
+	40
+	8
+	
+
+	
+
+	
+
+	13
+	45
+	45
+	9
+	
+
+	
+
+	
+
+	12
+	“A fifty-fifty shot.”
+The difficulty of attempting a new skill under expert guidance or extensive research. A critical failure results in a loss of resources including at least a day of work.
+	50
+	50
+	10
+	10
+	
+
+	4
+	11
+	55
+	55
+	11
+	
+
+	
+
+	
+
+	10
+	60
+	60
+	12
+	
+
+	
+
+	
+
+	9
+	“Reliable.”
+A professional working for good pay. An expert attempting an obscure skill. A critical failure results in a loss of a few hours at most.
+	65
+	65
+	13
+	11
+	
+
+	5
+	8
+	70
+	70
+	14
+	
+
+	
+
+	
+
+	7
+	75
+	75
+	15
+	12
+	
+
+	
+
+	6
+	“Nearly certain.”
+A professional working on an easy project. An adult wrestling a child without causing injury. A critical failure results in maybe a bloody nose or losing a few minutes.
+	80
+	80
+	16
+	
+
+	
+
+	
+
+	5
+	85
+	85
+	17
+	13
+	
+
+	6
+	4
+	90
+	90
+	18
+	14
+	
+
+	
+
+	3
+	95
+	95
+	19
+	15
+	
+
+	
+
+	2
+	“A sure thing.”
+Basic hygiene. An expert performing an oft-used basic skill. A critical failure either results in a few seconds lost, or a merely unimpressive success. Don’t bother rolling unless the loss of a few seconds really matters.
+	98
+	98
+	19
+	16
+	
+
+	
+
+	1
+	99
+	99
+	19
+	17
+	
+
+	
+
+	1
+	100
+	100
+	20
+	18
+	
+
+	
+
+	1
+	For systems that count the number of successes when rolling a number of dice, use the convention where the threshold for success is the difficulty number, and the number of successes determines how few resources are expended in the attempt (E.g. Shadowrun, Burning Wheel/Mouse Guard, White Wolf, L5R).
+
+
+Roll Under
+Rank 0        1/20        0%                Impossible
+Rank 1        7/20        30%        30        Very Difficult
+Rank 2        11/20        50%        20        Difficult
+Rank 3        15/20        70%        20        Reliable
+Rank 4        18/20        85%        15        Very Reliable
+Rank 5        20/20        95%        10        Unfailing
+
+
+(1, 1),(2, 2),(3, 5),(4, 10),(5, 20),(6, 50),(7, 100),(Etc.) defined by: y = ABx = y = (0.458877668)*(2.157959535)^x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LEVELING SCHEMES
+
+
+	NORMAL PROGRESSION
+	NORMAL PROGRESSION, with a ‘Focused Training’ bonus
+	
+
+RANK
+	Points to increase Rank by 1
+	Total cost from Rank 0
+	Rank up with Focus Bonus
+	Total cost with Focus Bonus
+	Rank 0
+	0
+	0
+	0
+	0
+	Rank 1
+	1
+	1
+	1
+	1
+	Rank 2
+	2
+	3
+	1
+	2
+	Rank 3
+	5
+	8
+	2
+	4
+	Rank 4
+	10
+	18
+	7
+	11
+	Rank 5
+	20
+	38
+	16
+	27
+	So, 60 points can create a character with:
+1 rank 5, 1 rank 4, 1 rank 2, and have a point left over.
+Or 60 rank 1 abilities.
+
+
+What if instead of counting cost per rank, on a category-by-category basis, we instead counted by total ranks accumulated?
+
+
+	NORMAL PROGRESSION
+	NORMAL PROGRESSION, with a ‘Focused Training’ bonus
+	
+
+RANK
+	Points to increase Rank by 1
+	Total cost from Rank 0
+	Rank up with Focus Bonus
+	Total cost with Focus Bonus
+	0th Rank
+	0
+	0
+	0
+	0
+	1st Rank
+	1
+	1
+	1
+	1
+	2nd Rank
+	2
+	3
+	1
+	2
+	3rd Rank
+	5
+	8
+	2
+	4
+	4th Rank
+	10
+	18
+	7
+	11
+	5th Rank
+	20
+	38
+	16
+	27
+	6th Rank
+	50
+	88
+	45
+	72
+	7th Rank
+	100
+	188
+	94
+	166
+	8th Rank
+	200
+	388
+	193
+	359
+	9th Rank
+	500
+	888
+	492
+	851
+	10th Rank
+	1,000
+	1888
+	991
+	1842
+	11th Rank
+	2,000
+	3888
+	1990
+	3832
+	To build the same character as above, it would cost 3888 points rather than 60 points
+
+
+Counting total ranks accumulated, by triangular numbers
+
+
+	NORMAL PROGRESSION
+	
+
+RANK
+	Points to increase Rank by 1
+	Total cost from Rank 0
+	0th Rank
+	0
+	0
+	1st Rank
+	1
+	1
+	2nd Rank
+	2
+	3
+	3rd Rank
+	3
+	6
+	4th Rank
+	4
+	10
+	5th Rank
+	5
+	15
+	6th Rank
+	6
+	21
+	7th Rank
+	7
+	28
+	8th Rank
+	8
+	36
+	9th Rank
+	9
+	45
+	10th Rank
+	10
+	55
+	11th Rank
+	11
+	66
+	To build the same character as above, it would cost 66 points rather than 60 points
+
+
+
+
+
+
+________________
+
+
+Mask of Many Faces (self.UnearthedArcana)
+https://www.reddit.com/r/UnearthedArcana/comments/7ml78j/mask_of_many_faces/
+submitted 4 days ago * by emorylewis
+
+
+This is an item I plan to give to the party Bard eventually and I'm looking for feedback. He'll only have the Mask of Influence, Mask of the Mage and The Stranger mask forms unlocked but he will discover the other forms and more as they encounter more creatures. I also intend to have a quirk for each form.
+
+
+The prerequisites some masks have are just DM notes. They're just to remind me which creatures unlock different masks. The player wouldn't see that part or see the other mask options they haven't unlocked.
+My intention for how the player unlocks new forms is by either fighting a creature or through enough interaction with it. How much interaction and how often they unlock a mask being at DM discretion. I don't suggest giving them a new mask for EVERY new creature they face as it would quickly get overwhelming for everyone, I'm probably going to end up giving the player about 10 forms in total.
+
+
+*Made some edits suggested from feedback. Merged Mask of Influence into base mask, replaced Mask of the Mage with Mask of the Illusionist, and reworked Funerary Mask.
+
+
+The Mask of Many Faces
+Wondrous item, Legendary (requires attunement by a Bard)
+This magic item appears as a plain white porcelain mask with no straps or apparent way to keep it on your face. Putting it on causes a brief moment of pain as it to fuses to your face and attunes to you. Once attuned, you can use it as an arcane focus and it cannot be removed from your face by any means while you are alive. While it is attuned to you can move its position around your head with no discomfort, however it must be over your face to use any of its abilities or gain their effects. As an action, you can change the mask from its current form to another one that it knows.
+When you finish a long rest you may subtly alter the mask’s basic appearance. When you do so, select one skill from Deception, Intimidation, Performance, or Persuasion. You have advantage on all Charisma checks using that skill while wearing the mask. This effect lasts until you finish your next long rest.
+
+
+Sentience. The Mask of Many Faces is a sentient chaotic good mask with an Intelligence of 12, a Wisdom of 14, and a Charisma of 20. It has hearing and darkvision out to a range of 120 feet, but can only see in the direction it's facing on your head. The mask can speak, read, and understand Common, and can communicate with its wearer both verbally and telepathically, its voice changing with its face. While you are attuned to it, The Mask of Many Faces also understands every language you know.
+Personality. Though its voice changes with its form The Mask of Many Faces always speaks in a Shakespearian style.
+
+
+Forms Known When Found
+-----------------------------------------------------------------------------
+Mask of the Illusionist
+When you unlock this mask, you learn the Minor Illusion cantrip. The cantrip doesn't count against your number of cantrips known, and when you cast Minor Illusion, you can create both a sound and an image with a single casting of the spell. Additionally, you can choose one inanimate, nonmagical object that is part of the illusion and make that object real. You can do this on your turn as a bonus action while the spell is ongoing. The object remains real for 1 minute. The object can't deal damage or otherwise directly harm anyone.
+
+
+The Stranger
+A nearly featureless mask that seems to blend into those around it. You becomes one with the crowd and are nearly unrecognizable. No one remembers you while you wear it, no matter how many times they speak to you or what you do, this includes allies.
+
+
+Snuggly Duckling
+The adorable face of a baby duck, fresh bill and fluffy feathers begging to be stroked. You get advantage on all Persuasion checks and can double you jump distance while wearing this mask. Quirk
+Being in the presence of bread requires a DC 15 Wisdom save or you are compelled to eat it and will stop at nothing to achieve eating said bread, using all actions to consume the bread until a successful DC15 Wisdom save is achieved or the bread is gone.
+
+
+Other Forms - These are just some options I came up with personalized to the campaign I'm running. I'd love to hear any you come up with if you use it.
+-----------------------------------------------------------------------------
+Mask of the Mimic
+Prerequisites: Mimic, Doppelganger or similar shape changer While the mask is in this form you can cast the spell disguise self at will, without expending a spell slot. Additionally you can change the face of this mask and the rest of your head to the face or head of any creature you have seem when you cast disguise self using this mask.
+
+
+Funerary Mask
+Perquisites: Zombie
+While the mask is in this form, you can cast Feign Death on yourself at will or as a reaction to taking damage, without expending a spell slot. You can end the spell on your turn as a bonus action.
+
+
+Mask of the Living Shadow
+Prerequisites:
+While the mask is in this form, you gain darkvision out to a range of 60 feet. If you already have darkvision from your race, its range increases by 30 feet. Additionally, while in darkness, you are invisible to any creature that relies on darkvision to see you in that darkness.
+
+
+In Thine Own Eyes
+Prerequisites: Mimic, Doppelganger or similar shape changer While the mask is in this form, you may select one creature that you can see and force it to make a Wisdom saving throw against your spell save DC. If the target fails the saving throw it will not realize you are wearing a mask and will consider you a member of its race. This feature does not alter the way the creature behaves toward you aside from this effect. This effect lasts for a number of minutes equal to your Charisma modifier (minimum of 1). On a successful save, there is no effect and the target is unaware of what you attempted.
+The target creature must be no more or less than one size category different than you.
+ 
+Mask of the Feykind
+Prerequisites: Fey
+While you are wearing this mask, you may attempt to hide in natural elements even if you are only lightly obscured by them.
+
+
+Mask of the Fiendkind
+Perquisites: Fiend
+While you are wearing this mask, when you successfully take the Hide action, you may turn invisible as a bonus action. You remain invisible until you move or take any action.
+
+
+Mask of the Unknowable
+Perquisites: Eldrazi or other Aberration
+While you are wearing this mask, other creatures have disadvantage on Wisdom (Insight) checks made against you, and you have advantage on all wisdom saving throws.
+
+
+Mask of Stone Face
+Perquisites: gargoyle
+The face of a gargoyle at rest. While wearing this mask, your AC increases by 2 and while you remain motionless you are indistinguishable from an inanimate statue as your body and equipment take on the appearance of stone.
+Quirk
+While you are wearing this mask you have an extreme dislike of all birds.
+
+
+Mask of the Vampire
+Perquisites: vampire
+While wearing this mask you gain a special Bite attack. You are proficient with this melee attack, which uses Charisma for attack rolls and deals 1d6 necrotic damage. The damage increases at 5th level (2d6), 11th level (3d6), and 17th level (4d6). You regain hit points equal to half of the necrotic damage dealt.
+
+
+
+
+Weapon durability:
+	Well made
+	Poorly made
+	Expert
+	Never breaks
+	Breaks safely and only via catastrophe
+	Non expert
+	Breaks UNSAFELY but only via catastrophe
+	Breaks easily
+	
+
+                        
+                        
+        New Item:
+Soul-bonded Item.
+The SOURCE of your power. As part of the creation of this item, you infuse it with a portion of your soul. While wearing or wielding this item, the Effective ranks in a powerset increase by +1. If you are separated from the item, however, instead of your ranks returning to normal, they are effectively decreased by -1. Creating such an item usually requires Rank 3 in Magic Item Crafting and at least 1 year of dedicated work and a special material or ritual. This item permanently holds this portion of your soul, and while it exists, your soul cannot be annihilated. This item grants effective ranks to whoever wields it. If the item is destroyed, that portion of your soul stored within it is also destroyed, and your body may suffer a mortal injury. Multiple soul-bonded items may be crafted and worn, or the first soul-bonded item may be repeatedly infused with more portions of your soul. Doing so requires ever-increasing work time and material costs.
+Character sheet note: There should be a couple panels inside the powerset panel to account for effective ranks and what source those effective ranks come from.
+
+
+
+
+‘Cursed’ item: An object that was meant to provide heat is now so hot that you cannot approach closer than 300 meters due to the intense heat. Within 100 meters, most materials burst into flame. Within 50 meters, the ground is melted into lava. Occasionally, the object is launched into the air by a burst of superheated gases. 
+
+
+________________
+
+
+http://jwhitson.tripod.com/adnd/newprof.html 
+Jo'Mase's AD&D New Proficiencies
+NEW PROFICIENCIES
+
+
+Many of the proficiencies below are the former thieving and bard skills converted into proficiency form. Thieves and bards as a class no longer exist in my world, so I allow these to be taken. Use my proficiency system when using these skills, or they will be too powerful if used in regular AD&D style. The proficiency is in italics with the ability score on which the proficiency is based in parenthesis. The base cost is indicated after the dash. For those proficiencies which were once thieving skills, apply the armor penalty modifiers to the skill when used, as a bonus or penalty to the roll. Each 5% of the former penalty(or bonus in the case of the no armor worn situation) converts into a 1 point penalty(or bonus) to the skill check. Dexterity modifiers are already accounted for in the basic proficiency system, but racial modifiers must also be included. These are dealt with as above, for armor penalties, but instead of just modifying the skill roll, these racial modifiers actually modify the rating itself.
+
+
+General Group Proficiencies
+Diplomacy(CHA)-1 slot: This skill operates as the bard reaction modifying ability did. The group to be influenced must not be attacking or about to attack. The diplomat can influence as many listeners as can hear him. If the diplomat makes his skill roll, he can shift the reaction of those who heard him 1 step in either direction he desires. If he fails, those whom he failed to influence ignore him. If he makes a serious blunder(see Proficiency Rules), they actually end up shifting their reaction 1 step in the opposite direction the diplomat was trying for. The DM should apply any situation modifiers he feels are appropriate, such as alignment, racial, or major political differences between the diplomat and the crowd. For example, for every step of difference in the alignment, apply a -1 penalty. Apply similar penalties for racial or political differences.
+
+
+Adventurer Group Proficiencies
+Pick Pockets(DEX)-2 slots: This skill works as the thieving skill did. If conditions are favorable or adverse to the use of this skill, the DM should apply bonuses or penalties as appropriate. A serious blunder(see Proficiency Rules) indicates the attempt was discovered. A victim can attempt an opposed skill roll against the pick pocket using his perception rating(see Misc. Modifications). If the victim’s skill roll, both succeeds and is higher than the pick pocket’s skill roll, the attempt is discovered. If the pick pocket failed his roll, then as long as the victim’s roll succeeded, the attempt was noticed.
+
+
+Open Locks(DEX)-2 slots: This skill works as the thieving skill. Any quality/poor lock penalties/bonuses are figured in as a bonus or penalty to the skill roll. Each 5% converts into a 1 point modifier. In addition, this skill requires some time, so a rushed attempt will involve penalties(see Complete Thieves Handbook). A serious blunder(see Proficiency Rules) results in the lockpick tools breaking.
+
+
+Find/Remove Traps(DEX)-2 slots: This skill works as the thief skill did. If rushed, it also will be penalized. If this skill is used against large traps, which is not normally allowed, treat this as a very extraordinary feat, with a penalty from -4 to -12, depending on the quality of the trap, and how familiar the user is with such traps or those who created it. A serious blunder(see Proficiency Rules) results in the trap being triggered. Magical Traps impose a -8 penalty, so only Experts can find and disarm these.
+
+
+Warrior/Adventurer Group Proficiencies
+Hide in Shadows(DEX)-2 slots: This skill works just like the thief skill did. Good or poor conditions for hiding, will give a bonus or impose a penalty to see if the user has hidden well enough(these modifiers are up to the DM). Those who might have a chance to notice the hidden person can attempt an opposed skill roll using their perception rating(see Misc. Modifications), and if their skill check roll is both successful and higher than the hiding roll of the hiding individual, the observer has discovered the hidden person. Finally, even a failed hide in shadows roll will give some limited obscurement to the hiding individual, if it was not a serious blunder. Those who might notice the hiding person who failed his hide in shadows roll, must still roll a perception check, but get a +1 per point over the hiding fellow missed his check by.
+
+
+Move Silently(DEX)-2 slots: This skill works like the thief skill did. Movement over a noisy terrain(dry leaves, creaky wood floor, etc.) or in an already very quiet environment will impose possible penalties to the skill, as the DM deems appropriate. Someone within hearing range can attempt an opposed roll against the silent mover, using either his perception rating(see Misc. Modifications) or Detect Noise skill, whichever is better, and if their skill check both succeeds and is higher than the silent mover’s skill check, he is heard. If the usual movement rate of 1/3 the user’s normal movement rate when moving silently is increased, this will impose a penalty of around -1 for every 10% increase in the usual 1/3 movement rate. So a 100% increase in speed would be 2/3 the normal movement rate of the user and would impose a -10 to the check. Finally, even a failed roll, if not a serious blunder, will give some stealth to the user. Those in hearing range must still make a perception or detect noise check to hear the mover, but get a +1 bonus for every point the silent mover failed his skill roll by.
+
+
+Climb Walls(DEXx2)-1 slot: This skill operates as the thief skill did. Apply any bonuses/penalties for the type or condition of the surface climbed by converting the percentage modifiers into point modifiers. Every 5% converts into a 1 point modifier. If the climber is hindered in any way, such as by an enemy attacking, a penalty is imposed on the skill check, the degree of which is up to the DM. Also, climbing faster than the normal rate allowed imposes a -1 penalty per 10% increase in the usual movement rate allowed.
+
+
+Inspire(CHA)-2 slots: This skill allows the user to inspire his allies or companions if they are close at hand and can hear his attempt. It requires at least 3 rounds of uninterrupted speech to work. The user can affect all within 10 feet per point of rating in this skill he has. The effects last for a number of rounds equal to his rating. He can renew the effect with a new skill roll, but only if those to be affected are out of combat. The effect he can inspire depends on the user. He can choose to give all affected a +1 to their to hit rolls, or a +1 to their saves or, finally, a +2 to their moral. For every round beyond the initial 3 he spends inspiring them, he gets a +1 per additional round to his skill roll, but this cannot exceed a +4 bonus. If a serious blunder occurs(see Proficiency Rules), he not only fails to inspire them but cannot attempt another try with these people for 1 full day. Reducing the base time of 3 rounds to 2 rounds requires a -4 check. Reducing the base time to but 1 round requires a -8 check. Additionally, if the creatures to be inspired are of very different race/class or alignment to the one attempting the inspiration, the DM should apply penalties. Those of exact matching alignment, race and class should give bonuses to be inspired.
+
+
+Critical/Vitals Strike(INT)-2 slots: This skill allows the user to backstab as a thief. The victim must be unaware of the attack(surprised) for it to work to full effect. Novices(rating 1-6) can cause double damage, Skilled(rating 7-12) can cause triple damage, Experts(rating 13-18) can cause quadruple damage and Masters(rating 19+) can cause quintuple damage. If the user’s attack roll both hits his target and the same roll would pass his skill check, he also inflicts a critical hit result on the target, determining the severity by the usual means(weapon size vs. target size), but the location is chosen by the user. The target gets the usual save to avoid this critical result, but the damage is still inflicted according to the user’s skill ranking, as above. This skill only applies to humanoid type creatures, and only those not more than twice the attacker’s size. If the target is not humanoid, then apply a penalty based on how far from humanoid the target is, and this penalty will modify the skill rating, to determine the new modified ranking the attacker would then fall into. Every 1’ over twice the attacker’s size the target is imposes another -1 penalty.
+
+
+Mage/Priest/Adventurer Group Proficiencies
+Read Languages(INT)-2 slots: This skill mimics the thief skill of the same name, with the same effects. Bonuses or penalties for the familiarity or alien nature of the document should by imposed by the DM if appropriate. A serious blunder(see Proficiency Rules) results in a false reading. Additionally, Experts and Masters can attempt to decipher magic and holy writings on scrolls. To read a mage or priest scroll, a check at a -8 is required. Experts would reduce this by 2 points to a -6 check, and Masters would reduce it by 4 to a -4 check. If the check passes, the scroll can be read and used by the reader. If the check fails, the scroll cannot be read by that reader, and for Experts, if the check failed by 5 or more points, the scroll backfires. Masters have no such backfire risk.
+
+
+Lore Master(INT)-2 slots: This skill allows the user to have the same chance as a bard to discover the properties of a magic item. Use the Legend Lore Results Table in the Bard’s Handbook to determine what is discovered on a successful roll. Rare or special items may impose a penalty, while common items(relative to other magic items that is) may grant a bonus, the exact degree of which is up to the DM. For every point below the needed roll the skill check succeeded by, allow an extra roll on the table. If the loremaster is an Expert or Master and need not roll the check, because he is considered to automatically succeed, then count him as if he rolled a 1 for purposes of determining the number of result rolls allowed. If a serious blunder results(see Proficiency Rules), then the user gets a d4 false results(randomly determined). A -4 check allows the loremaster to choose up to a d4 of the result types, rather than rolling them on the table. An additional d4 result types can be chosen for each additional -4 to the skill check. Remember, only Skilled or better loremasters can take a -4 to the check, only Experts or better a -8 and only Masters a -12 or more.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+________________
+
+
+PUSH FILM
+Watchers (divination - seeing the future)
+Watchers have the ability to foresee the future to varying degrees. As knowledge of the future invariably causes that future to change, Watchers' visions of the future in their direct sphere of influence are subject to frequent shifting. To keep track and better understand their visions, most watchers keep small art journals in which they draw what they see. Watchers' visions are like a sense of déjà vu. Watchers can get visions at will. Drinking alcoholic beverages can temporarily enhance a Watcher's abilities (as shown by Cassie). Cassie and Pop Girl are Watchers. Cassie's Mother has been revealed to be the most powerful Watcher in the world, setting all the events and foreseeing them even decades earlier, also saying them to Nick's father.
+Movers (Telekinesis)
+Movers are powerful telekinetics who are trained to identify the specific atomic frequencies of a given material and alter the gravitational field around it, usually causing the nearby air to appear "warped". This allows them to move both animate and inanimate objects. Advanced Movers can work at the molecular level, creating shields in the air around them to deflect bullets or create power fists and kicks, a strike that delivers three times the power of a normal punch. Nick is a Mover, with his abilities at a basic level at the start of the film, developing Advanced abilities later on. Victor, Carver's right-hand man, is a more advanced Mover with abilities to create shields and power-strikes. Nick's father was also an advanced Mover.
+Pushers (mind magic: implant memory/belief, dominate/puppeteer)
+Pushers have the ability to implant memories, thoughts and emotions into the minds of other people in order to manipulate them. The skill level of the Pusher determines how many people the Pusher is able to control at one time, and how vivid the implanted memories are. A powerful Pusher can push a large group of people at the same time, basically creating a personal army. A Pusher is able to make a person do anything the Pusher desires, even commit suicide. A Pusher's eyes indicate how powerful they are: their pupils will dilate to certain degrees depending on how powerful the push is (for example, Henry Carver's eyes are rendered completely black, signifying that he is an extremely able and effective Pusher). Kira is also a very powerful Pusher, controlling 12 people at the same time.
+Bleeders (AoE Sonic damage)
+Bleeders have the ability to emit high-pitched sonic vibrations that cause ruptures in a target's blood vessels. While using this ability, their pupils turn into vertical slits, like a snake's, because of synthetic materials implanted in them to protect their blood vessels from the effects of their own ability. They are also sometimes known as Screechers or Screamers. Pop Girl's brothers and father, the Triads, are Bleeders. Pop Girl's brothers are powerful enough to destroy locks on doors and shattering glasses to pieces, showing that they are advanced Bleeders. Pop Girl's father is a very powerful Bleeder, capable of collapsing an entire building in rage.
+Sniffs (divination: find object/person)
+Sniffs are highly developed psychometrics who can track the location of people or objects over varying distances. Like bloodhounds, their ability is increased if they have tactile access to an object that has been in direct contact with the subject. Sniffs receive information in the form of images, which is why identifiable landmarks help increase their effectiveness. Emily Hu is a highly trained Sniff, and she uses her powers for money. Carver's associates who kidnapped Kira are also Sniffs.
+Shifters (illusion: image/appearance/texture)
+Shifters can temporarily alter the appearance of an object by manipulating patterns of light interacting with it. Once the illusion is established, it remains with the object for a short period of time. For example, a Shifter could touch a one dollar bill and alter it to appear as a one hundred dollar bill until the effect expires. The object shifted must have roughly the same dimensions as the object it is shifted into. The length of time that the effect will last is based on the Shifter's experience. Hook Waters, an ex-Division agent and Nick's friend, is a highly experienced Shifter, capable of turning a large suitcase into a fake one and managing to hold the illusion for 6-7 hours.
+Wipers (mind magic: erase-only)
+Wipers are skilled at either temporarily or permanently erasing memories, an invaluable asset in espionage. Experience will dictate the accuracy of their wipes, though there is always the danger that they will eliminate a desired memory. Wo Chiang, an old fisherman who lives on a dock, is a Wiper who uses his powers on those who request it for money. He erases part of Nick's and Kira's memories in the film. It can be speculated that Wipers can send mental blasts into a target's brain or put high mind-stress into their wipes for offensive means, as shown by Wo Chiang when he saves Cassie from Pop Girl by sneaking up behind her and rendering her unconscious, either through the mental-blast method or deliberately over-stressing her mind through his wipe.
+Shadows (anti-divination)
+Shadows are trained to block the visions of other clairvoyants, such as Sniffs, by diverting the attention of the target radius so that they "flicker" through different locations other than the subject's actual whereabouts. Experience will enhance the size of the area they can shadow and the intensity of their shielding effect. Shadows need to be awake to manifest their ability, so it is common for a detail of two Shadows to operate in shifts while protecting a person or object for extended periods. Most Shadows are effective only against Sniffs, but some extremely powerful Shadows are able to block even Watchers. Pinky, a friend of Nick's, is a Shadow for hire, and he is effective only against Sniffs and is shown to be inferior to the Division's Shadows. Like other characters, he also uses his powers for money. An old woman hired by Kira to hide the syringe has the ability to shadow an entire building, even from Watchers.
+Stitches (sarcurgy)
+Stitches are psychic healers trained to quickly reconstruct cells to their previous or healthy state, so they can heal and even "un-heal" whatever they have done. For more detailed work, Stitches use a silver-based cream on their hands that acts as a conductor for their ability. Teresa Stowe is a powerful Stitch, capable of healing Nick's back to pristine shape and also disabling him later in the film, who also uses the cream.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ring of Transparency: Turns the wearer perfectly transparent - which also means that light does not land on their retinas.
+
+
+Ring of Warning: When they fail a perception check, the wearer can speak with a spirit within the ring. It warns them when danger is close. But it also produces a lot of false positives.
+
+
+Sword of Lightning: Upon a command word, you call down a bolt of lightning. The bolt hits the sword and potentially electrocutes the wielder.
+
+
+Cloak of Hatred: Grants heavy bonus to stealth, but it is infused with the soul of a brutal racist. Will hurl racist insults when a chance to assassinate a hated target is missed.
+
+
+Ring of Deception: Everything you say is a lie, you cannot tell the truth.
+
+
+Charm of Water Breathing: Upon attunement, you grow gills, and your lungs atrophy to nothing. You may breath water, but can no longer breath air
+
+
+
+
+
+
+
+
+
+
+
+
+________________
+
+
+Species
+        Dwarf:
+Cannot become mortal due to toxin.
+Resistant to damage from pressure (blunt, crushing, & vacuum).
+Ages SLOWLY, childhood until 30, very old at 600.
+Easily bribed by treasure.
+        Elf:
+Immune to sleep and the effects from lack thereof.
+Innate magic, or at least knowledgeable about magic.
+Cannot become mortal due to age.
+Only reaches the ‘very old’ age category after a very prolonged emotional trauma - grief, despair, boredom, etc.
+                Death states: Wraith, petrified wood, crossing over the sea.
+        Gnome:
+Similar to elves.
+Innate talent, but obsessive over that talent.
+Innovators when they obsess over things that can result in innovation.
+Easily seduced by knowledge.
+Human:
+Adaptive/Creative, but ambitious/egotistical
+        Halfling:
+                Cannot become mortal due to curses
+        Giant:
+                Size, titan ancestry
+        Goblinoid
+                Goblin
+                Gremlin
+                Hobgoblin
+                Bugbear
+                Orc
+        Xeno:
+                Aberration-type: Alien/inscrutable mind, aura of madness, alien biology, ancient memories
+                Celestial-type: Wings, halo (aura of glory), 
+                Elemental-type: Amorphous, obsession, 
+                Fey-type: Aura of befuddlement, greed/obsession/weakness, tied to nature, out of phase (with time/place), 
+                Fiend-type: Aura of fear/despair/horror
+                Therian-type: Animalistic, violence
+                Titan-type: Aura of creation
+                Undead-type: 
+
+
+        
+  
+
+http://forgottenrealms.wikia.com/wiki/Firenewt#5e 
+https://en.wikipedia.org/wiki/Hellbender#/media/File:Hellbender.jpg
+The Evolution of Races
+
+
+Elementals (Titans)
+        Wild elementals
+                Slimes
+        Genie (primal elements; Air, Earth, Fire, Water)
+Feyfolk (‘green/animate elements; rivers, wind, trees)
+                        Dryad
+                        Naiad
+                        Oread
+                        
+                        Elf        
+                Gnome
+                                Halfling
+                Genasi
+Giantkind (from earth/stone elementals)
+                Giant
+                        Ogre
+                        Dwarf
+        Trollkind (I feel that trolls should be the first mortal and mundane sentient race, but the idea that other races evolved from them doesn’t seem like it works. I also feel that trolls should have connection to giantkind.)
+                Green Troll
+                Stone Troll
+Divine/Infernal (artificial/noumenal)
+        Angel
+                Aasimar
+                        +elf: Eladrin
+        Fiend
+                Cambion
+        Tiefling
+                +elf: Orc
+        Goblinkind
+Goblin
+Hobgoblin
+        +?? Bugbear
+________________
+
+
+Cultures
+
+
+
+
+
+
+https://www.behindthename.com/random/random.php?number=4&gender=both&surname=&randomsurname=yes&showextra=yes&all=no&usage_enga=1
+
+
+
+
+________________
+
+
+Tolkien-ish body and soul: http://tolkiengateway.net/wiki/F%C3%ABa_and_hr%C3%B6a 
+
+
+One possible afterlife: https://imgur.com/gallery/csvUM 
+
+
+Crazy-ass but awesome world-building: http://www.worlddreambank.org/B/BIOSPHER.HTM 
+________________
+Real hazards that are unfair and complete bullshit:
+Cholera: https://www.cdc.gov/cholera/infection-sources.html, http://www.who.int/cholera/environmental_health/en/ 
+Cone snail: https://en.wikipedia.org/wiki/Cone_snail#Risks
+Blue-ringed octopus: https://en.wikipedia.org/wiki/Blue-ringed_octopus#Toxicity
+Poison dart frog: https://en.wikipedia.org/wiki/Poison_dart_frog#Toxicity_and_medicine
+Tse-Tse fly disease: https://en.wikipedia.org/wiki/African_trypanosomiasis#Prevention 1/1000, but once infected, nearly always fatal.
+Malaria: https://en.wikipedia.org/wiki/Malaria
+
+
+
+
+________________
+
+
+Wizards’ College of Magic - Entrance Exam
+1. Draw a rainbow:
+
+
+
+
+
+
+
+
+
+
+	
+
+2. Explain why blood-elementalists are rare:[ad]
+
+
+
+
+
+
+
+
+
+
+
+
+3. How many twins are in a pair?[ae]
+
+
+
+
+
+
+
+
+
+
+
+
+4. Two clocks were ticking in a wood. One running forwards, the other running backwards. Suddenly, one stops. Which clock stopped. Why?[af]
+
+
+
+
+
+
+
+
+
+
+
+
+5. Describe, in detail, the socio-political ramifications of Gammozam’s discovery of the fourth rune-axiom - be sure to include a discussion of its effect on skin-changer legislation:
+
+
+
+
+
+
+
+
+
+
+
+
+6. A white whisker from a black cat. A dead woman’s tattoo. Root of nightshade. Dust from underneath a winebottle. What do these ingredients produce?[ag]
+
+
+
+
+
+
+
+
+
+
+
+
+7. Seven?
+   1. True
+   2. False
+   3. None of the above
+________________
+
+
+Tabletop RPG questionnaire
+
+
+
+
+Ideal length of a D&D session
+[Scale 1 to 12 hours]
+
+
+Ideal party size (number of players, not including the GM)
+[Scale of 1 to 12 players]
+
+
+Ideal risk of permadeath
+100% chance of total party kill per session
+        50% chance of TPK per session
+        10% chance of TPK per session
+        100% chance of any single player-character (PC) being killed per session
+        50% chance of any single PC being killed per session
+        10% chance of any single PC being killed per session
+        Zero risk of death
+
+
+Ideal power level (needs a more practical description than social station, effect on plot/world)
+        No better than commoners
+
+
+        Gentry - Knights, masters of a trade, 
+        Nobility - dukes, barons, counts
+        Kings and Queens
+        Emperors of vast empires
+        Demigods of limited portfolios
+        Gods of creation
+
+
+
+
+________________
+[1] Optional ruling: A more severe interpretation of this rule requires the target to not merely be non-anathema, but to be faithful to your faith.
+[2] The courage/will check to enter should almost always fail - only when it reveals something interesting to the story should an anathema being be allowed into an area of sanctuary.)
+[3] Cannot include self.
+[4] GM tip, do not call for a roll. Instead, give an answer to what was read and then offer a roll with every scroll/magical writing to allow the player to determine whether that character’s interpretation is correct.
+[a]CONSIDER rescaling damage according to cantrip vs. ‘push’. Such that when you first gain the ability to cast fireball, it is actually done via ‘pushing’ and thus suffering injury, thus imposing some limitation on casting fireball, such that fireball might actually be a 2nd-rank pushed to 4th-rank (where 4th rank can cast it untireingly) and meteor swarm is 5th-rank pushed to 7th-rank.
+[b]dmg = 0.4300361839*2.514866859^x ?
+[c]CONSIDER rescaling damage according to cantrip vs. ‘push’. Such that when you first gain the ability to cast fireball, it is actually done via ‘pushing’ and thus suffering injury, thus imposing some limitation on casting fireball, such that fireball might actually be a 2nd-rank pushed to 4th-rank (where 4th rank can cast it untireingly) and meteor swarm is 5th-rank pushed to 7th-rank.
+[d]dmg = 0.4300361839*2.514866859^x ?
+[e]CONSIDER rescaling damage according to cantrip vs. ‘push’. Such that when you first gain the ability to cast fireball, it is actually done via ‘pushing’ and thus suffering injury, thus imposing some limitation on casting fireball, such that fireball might actually be a 2nd-rank pushed to 4th-rank (where 4th rank can cast it untireingly) and meteor swarm is 5th-rank pushed to 7th-rank.
+[f]dmg = 0.4300361839*2.514866859^x ?
+[g]CONSIDER rescaling damage according to cantrip vs. ‘push’. Such that when you first gain the ability to cast fireball, it is actually done via ‘pushing’ and thus suffering injury, thus imposing some limitation on casting fireball, such that fireball might actually be a 2nd-rank pushed to 4th-rank (where 4th rank can cast it untireingly) and meteor swarm is 5th-rank pushed to 7th-rank.
+[h]dmg = 0.4300361839*2.514866859^x ?
+[i]CONSIDER rescaling damage according to cantrip vs. ‘push’. Such that when you first gain the ability to cast fireball, it is actually done via ‘pushing’ and thus suffering injury, thus imposing some limitation on casting fireball, such that fireball might actually be a 2nd-rank pushed to 4th-rank (where 4th rank can cast it untireingly) and meteor swarm is 5th-rank pushed to 7th-rank.
+[j]dmg = 0.4300361839*2.514866859^x ?
+[k]CONSIDER rescaling damage according to cantrip vs. ‘push’. Such that when you first gain the ability to cast fireball, it is actually done via ‘pushing’ and thus suffering injury, thus imposing some limitation on casting fireball, such that fireball might actually be a 2nd-rank pushed to 4th-rank (where 4th rank can cast it untireingly) and meteor swarm is 5th-rank pushed to 7th-rank.
+[l]dmg = 0.4300361839*2.514866859^x ?
+[m]CONSIDER rescaling damage according to cantrip vs. ‘push’. Such that when you first gain the ability to cast fireball, it is actually done via ‘pushing’ and thus suffering injury, thus imposing some limitation on casting fireball, such that fireball might actually be a 2nd-rank pushed to 4th-rank (where 4th rank can cast it untireingly) and meteor swarm is 5th-rank pushed to 7th-rank.
+[n]dmg = 0.4300361839*2.514866859^x ?
+[o]CONSIDER rescaling damage according to cantrip vs. ‘push’. Such that when you first gain the ability to cast fireball, it is actually done via ‘pushing’ and thus suffering injury, thus imposing some limitation on casting fireball, such that fireball might actually be a 2nd-rank pushed to 4th-rank (where 4th rank can cast it untireingly) and meteor swarm is 5th-rank pushed to 7th-rank.
+[p]dmg = 0.4300361839*2.514866859^x ?
+[q]CONSIDER rescaling damage according to cantrip vs. ‘push’. Such that when you first gain the ability to cast fireball, it is actually done via ‘pushing’ and thus suffering injury, thus imposing some limitation on casting fireball, such that fireball might actually be a 2nd-rank pushed to 4th-rank (where 4th rank can cast it untireingly) and meteor swarm is 5th-rank pushed to 7th-rank.
+[r]dmg = 0.4300361839*2.514866859^x ?
+[s]CONSIDER rescaling damage according to cantrip vs. ‘push’. Such that when you first gain the ability to cast fireball, it is actually done via ‘pushing’ and thus suffering injury, thus imposing some limitation on casting fireball, such that fireball might actually be a 2nd-rank pushed to 4th-rank (where 4th rank can cast it untireingly) and meteor swarm is 5th-rank pushed to 7th-rank.
+[t]dmg = 0.4300361839*2.514866859^x ?
+[u]Advancement conditions:
+Choose one expression of faith:
+> Balance - You gain experience for visiting unique consecrated space not of your faith, and ensuring that no consecrated space grows too large nor is extinguished.
+> Growth - You gain experience by growing or creating new consecrated spaces that are sacred to your faith.
+> Cessation - You gain experience by eliminating consecrated spaces anathema to your faith.
+[v]Another requirement that is optional:
+
+
+Ordainment: To succeed to rank X, you must be Ordained by an authority figure in your faith.
+[w]What about creature type? Humanoid-to-fiend?
+        To see through disguise, you must interact with the creature for 1 minute before the insight check DC
+        Tier 6: You understand and mimic the individual to such an extent that (you have their memories and can guess their actions with uncanny accuracy)
+[x]but what about limiting power so that a rank 1 sarcurgist cannot ust create a set of wings on a human? maybe you're limited to either - restoring function using the selfsame flesh, or adding function by adding flesh from a different being?
+
+
+the fun of having an incentive to COLLECT body parts would be a benefit of that limitation.
+[y]Better model for Sarcurgy?
+
+
+Heal - increase the healing rate of an organism (costs exhaustion AND time? Plus scarring?) (high-rank = reanimate/revive?)
+
+
+Graft - modify an organism's body (modifications are heritable by offspring) (costs exhaustion? DEFINITELY costs beauty) (ranks = number of grafts?)
+     Graft, Splice, Mutate, 
+
+
+Transmute Flesh - change a portion of tissure from one type to another. bone to organ, for instance.
+[z]Advancement condition:
+
+
+You gain experience whenever you learn a new spell. (Or when you learn a certain number of spells)
+(rank, to10000, to1000)
+r0 - 0, 0
+r1 - 1, 1
+r2 - 8, 6
+r3 - 200, 60
+r4 - 2,000, 300
+r5 - 10,000, 1,000
+[aa]these may be too crunchy for playtesting
+
+
+They may also be too overpowered - by making character too hard to hit and thus making combat tedious
+[ab]GM NOTES:
+Grants +1 character building point. Choose one ability. You can level that ability as if it was 1 less.
+Contract to a King: The King sent the PC on a wild goose chase.
+Contract to an eldritch entity: The PC sold their immortal soul to an entity with obscure motives and origins for power.
+Breaking the contract, or completing it in an unexpected way removes the obligation, but may add the ‘Nemesis’ story to the character. This Nemesis must be too powerful to ignore.
+Gain XP by abiding by the constraints or accomplishing the goals set in the contract.
+[ac]If this could foreshadow some moral lesson on why dragons are avaricious, or why the first dragon would raise an army, that would be better
+[ad]Because the first time someone with blood-elementalist talent works on blood, it is usually their own, and they fatally wound themselves.
+[ae]4 people are in a pair of twins
+2 sets of twins would be a pair of twins
+[af]Why: Because if one hadn't stopped running, then two clocks would still be ticking.
+[ag]A white whisker from a black cat and a dead woman's tattoo are each symbols of an uncommon pairing of common things. Root of nightshade is a potato - something that was dangerous but is now sustaining. Dust underneath a winebottle is a symbol of good spirits shared.
+
+
+These are ingredients of friendship.
