@@ -17,7 +17,7 @@ __also bold__
 *italic*  
 _also italic_  
 ~~strikethrough~~  
-[hyperlink to google](google.com)  
+[hyperlink to google](www.google.com)  
 
 l. list item 1  
 l. list item 2  
